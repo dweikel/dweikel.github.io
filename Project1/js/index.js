@@ -20,7 +20,7 @@ var json = (function () {
     //debugger
     return json
 })();
-var slicedArray = json.slice(0,26)
+var slicedArray = json.slice(0,26);
 var finalArray = _.reject(slicedArray,function(num, i){
   return i === 6;
 })
