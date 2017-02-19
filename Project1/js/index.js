@@ -21,7 +21,6 @@ var json = (function () {
     return json
 })();
 var slicedArray = json.slice(0,26);
- if (!input || !input.length) { return; }
 
 var finalArray = _.reject(slicedArray,function(num, i){
   return i === 6;
