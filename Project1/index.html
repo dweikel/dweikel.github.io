@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modern Warfare Weapon Stats</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="content">
+      <h1>Call of Duty 4: Modern Warfare</h1>
+      <h2>Weapon Specs</h2>
+      <script type="text/html" id='weapons'>
+       <table style="width:82%">
+         <thead>
+           <tr>
+             <th>Weapon</th>
+             <th>Damage</th>
+             <th>RoF</th>
+             <th>Reload Time</th>
+             <th>Recoil</th>
+           </tr>
+         </thead>
+         <tbody>
+           <% _.each(weapons, function(weapon, key, list) { %>
+             <% var weaponName = weapon.gun; %>
+             <tr>
+                <td class="<%= weaponName %>"><%= weaponName %></td>
+                <td class="<%= weaponName %>"><%= weapon.dam %> per shot</td>
+                <td class="<%= weaponName %>"><%= weapon.rof %>
+                <td class="<%= weaponName %>"><%= weapon.rt %>
+                <td class="<%= weaponName %>"><%= weapon.rec %>
+             </tr>
+           <% });%>
+         </tbody>
+       </table>
+        <table style="width:15%">
+          <thead>
+            <tr>
+              <th>Icons</th>
+            </tr>
+          </thead>
+         <tbody>
+           <% _.each(images, function(image, key, list) { %>
+             <tr>
+                <td class="image"><img src="<%= image %>" /></td>
+             </tr>
+           <% });%>
+         </tbody>
+       </table>
+
+     </script>
+     <div id="target"></div>
+     </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
