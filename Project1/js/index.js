@@ -8,7 +8,7 @@ var json = (function () {
     $.ajax({
         'async': false,
         'global': false,
-        'url': 'http://mysafeinfo.com/api/data?list=cod4weapons&format=json',
+        'url': 'https://mysafeinfo.com/api/data?list=cod4weapons&format=json',
         'dataType': 'json',
         'success': function (data) {
           json = data
