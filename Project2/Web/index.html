@@ -1,0 +1,582 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+
+          // Point of Interest Mouseover/out Functions
+          $(document).ready(function() {
+          $('.reisterstownRd').mouseover(function() {
+                  $('.reisterstownRdname').show();
+                });
+                $('.reisterstownRd').mouseout(function() {
+                  $('.reisterstownRdname').hide();
+                });
+
+                $('.parkHeights').mouseover(function() {
+                  $('.parkHeightsname').show();
+                });
+                $('.parkHeights').mouseout(function() {
+                  $('.parkHeightsname').hide();
+                });
+
+                $('.parkHeights2').mouseover(function() {
+                  $('.parkHeights2name').show();
+                });
+                $('.parkHeights2').mouseout(function() {
+                  $('.parkHeights2name').hide();
+                });
+
+                $('.reisterstownRd2').mouseover(function() {
+                  $('.reisterstownRd2name').show();
+                });
+                $('.reisterstownRd2').mouseout(function() {
+                  $('.reisterstownRd2name').hide();
+                });
+
+                $('.westStreet').mouseover(function() {
+                  $('.westStreetname').show();
+                });
+                $('.westStreet').mouseout(function() {
+                  $('.westStreetname').hide();
+                });
+
+                $('.westStreet2').mouseover(function() {
+                  $('.westStreet2name').show();
+                });
+                $('.westStreet2').mouseout(function() {
+                  $('.westStreet2name').hide();
+                });
+
+                $('.elmAve').mouseover(function() {
+                  $('.elmAvename').show();
+                });
+                $('.elmAve').mouseout(function() {
+                  $('.elmAvename').hide();
+                });
+
+                $('.charlesStreet').mouseover(function() {
+                  $('.charlesStreetname').show();
+                });
+                $('.charlesStreet').mouseout(function() {
+                  $('.charlesStreetname').hide();
+                });
+
+                $('.mtRoyal').mouseover(function() {
+                  $('.mtRoyalname').show();
+                });
+                $('.mtRoyal').mouseout(function() {
+                  $('.mtRoyalname').hide();
+                });
+
+                $('.calvertStreet').mouseover(function() {
+                  $('.calvertStreetname').show();
+                });
+                $('.calvertStreet').mouseout(function() {
+                  $('.calvertStreetname').hide();
+                });
+
+                $('.northAve').mouseover(function() {
+                  $('.northAvename').show();
+                });
+                $('.northAve').mouseout(function() {
+                  $('.northAvename').hide();
+                });
+
+                $('.guilfordStreet').mouseover(function() {
+                  $('.guilfordStreetname').show();
+                });
+                $('.guilfordStreet').mouseout(function() {
+                  $('.guilfordStreetname').hide();
+                });
+         });
+    </script>
+
+<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type="text/css">
+
+    <style>
+        html, body {
+            font-family: 'Oswald';
+            margin: 0px;
+            padding: 0px;
+            min-height: 100%;
+            min-width: 100%;
+            box-sizing: border-box;
+            font-size: 20px;
+            color: #330000;
+            background-color: #ffeab5;
+        }
+        main {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .lightbox {
+          display: none;
+        }
+        .featherlight-content {
+          width: 600px;
+          height: 750px;
+        }
+        .featherlight .featherlight-content {
+          position: relative;
+          text-align: left;
+          vertical-align: middle;
+          display: inline-block;
+          overflow: auto;
+          width: 600px;
+          height: 375px;
+          padding: 30px;
+          border-bottom: 25px solid transparent;
+          margin-left: 7.5%;
+          margin-right: 7.5%;
+          max-height: 95%;
+          background: #ffeab5;
+          cursor: auto;
+          white-space: auto;
+          border-style: solid;
+          border-width: thick;
+          border-color: #330000;
+}
+        div {
+            position: absolute;
+        }
+        div a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            transition: .5s ease;
+            opacity: 1;
+        }
+        main > div a:hover { /*Points of Interest Hover*/
+          width: 10px;
+          height: 10px;
+          background: #ffffff;
+          -moz-border-radius: 7.5px;
+          -webkit-border-radius: 7.5px;
+          border-radius: 7.5px;
+        }
+      .title {
+        position: fixed;
+        top: 75.5vh;
+        left: 75vh;
+      }
+        /*Point of Interest Clickable Zones*/
+      .reisterstownRd {
+            top: 128px;
+            left: 671px;
+            width: 10px;
+            height: 10px;
+            background: #ff0000;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            }
+          .reisterstownRd a {
+            border-radius: 200px;
+          }
+            .reisterstownRdname {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .parkHeights {
+            top: 153px;
+            left: 715px;
+            width: 10px;
+            height: 10px;
+            background: #ff0000;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+          }
+          .parkHeights a {
+            border-radius: 100px;
+          }
+            .parkHeightsname {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .parkHeights2 {
+          top: 208px;
+          left: 790px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+          }
+          .parkHeights2 a {
+            border-radius: 100px;
+          }
+            .parkHeights2name {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .reisterstownRd2 {
+          top: 218px;
+          left: 790px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+          }
+          .reisterstownRd2 a {
+          border-radius: 100px;
+        }
+            .reisterstownRd2name {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .westStreet {
+          top: 226px;
+          left: 908px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+        .westStreet a {
+          border-radius: 100px;
+        }
+          .westStreetname {
+            display:none;
+            position: fixed;
+            top: 80vh;
+            left: 75vh;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 0px;
+            margin: 0px;
+          }
+        .westStreet2 {
+          top: 227px;
+          left: 924px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+          .westStreet2 a {
+            border-radius: 100px;
+          }
+            .westStreet2name {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .elmAve {
+          top: 247px;
+          left: 924px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+          .elmAve a {
+            border-radius: 100px;
+          }
+            .elmAvename {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .charlesStreet {
+          top: 297px;
+          left: 983px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+          .charlesStreet a {
+            border-radius: 100px;
+          }
+            .charlesStreetname {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .mtRoyal {
+          top: 342px;
+          left: 962px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+          .mtRoyal a {
+            border-radius: 100px;
+          }
+            .mtRoyalname {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .calvertStreet {
+          top: 345px;
+          left: 994px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+          .calvertStreet a {
+            border-radius: 100px;
+          }
+            .calvertStreetname {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+              margin-left: auto;
+              padding: 0px;
+              margin: 0px;
+            }
+        .northAve {
+          top: 398px;
+          left: 1010px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+          .northAve a {
+            border-radius: 100px;
+          }
+            .northAvename {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+             margin-left: auto;
+             padding: 0px;
+             margin: 0px;
+            }
+        .guilfordStreet {
+          top: 430px;
+          left: 1004px;
+          width: 10px;
+          height: 10px;
+          background: #ff0000;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+          .guilfordStreet a {
+            border-radius: 100px;
+          }
+            .guilfordStreetname {
+              display:none;
+              position: fixed;
+              top: 80vh;
+              left: 75vh;
+              margin-right: auto;
+             margin-left: auto;
+             padding: 0px;
+             margin: 0px;
+            }
+    </style>
+
+</head>
+<body>
+    <header>
+          <!-- Point of Interest Title divs -->
+    <div class="reisterstownRdname">
+          <h3>5801 Reisterstown Rd.</h3>
+      </div>
+      <div class="parkHeightsname">
+          <h3>4337 Park Heights</h3>
+      </div>
+      <div class="parkHeights2name">
+          <h3>4000 Park Heights</h3>
+      </div>
+      <div class="reisterstownRd2name">
+          <h3>4000 Reisterstown Rd.</h3>
+      </div>
+      <div class="westStreetname">
+          <h3>600 West 28th St.</h3>
+      </div>
+      <div class="westStreet2name">
+          <h3>929 West 36th St.</h3>
+      </div>
+      <div class="elmAvename">
+          <h3>3424 Elm Ave.</h3>
+      </div>
+      <div class="charlesStreetname">
+          <h3>2439 Charles St.</h3>
+      </div>
+      <div class="mtRoyalname">
+          <h3>1398 Mt. Royal Ave.</h3>
+      </div>
+      <div class="calvertStreetname">
+          <h3>1617 North Calvert St.</h3>
+      </div>
+      <div class="northAvename">
+          <h3>2117 East North Ave.</h3>
+      </div>
+      <div class="guilfordStreetname">
+          <h3>210 Guildford St.</h3>
+      </div>
+
+    </header>
+    <main class="dragscroll">
+      <div class="title">
+        <h2>MURALS of BALTIMORE</h2>
+      </div>
+        <div class="dummy">
+        <img src="baltimoreMap.png" />
+
+        <!-- Featherlight a href -->
+      <div class="reisterstownRd">
+            <a href="#" data-featherlight="#reisterstownRdinfo"></a>
+        </div>
+        <div class="parkHeights">
+            <a href="#" data-featherlight="#parkHeightsinfo"></a>
+        </div>
+        <div class="parkHeights2">
+            <a href="#" data-featherlight="#parkHeights2info"></a>
+        </div>
+        <div class="reisterstownRd2">
+            <a href="#" data-featherlight="#reisterstownRd2info"></a>
+        </div>
+        <div class="westStreet">
+            <a href="#" data-featherlight="#westStreetinfo"></a>
+        </div>
+        <div class="westStreet2">
+            <a href="#" data-featherlight="westStreet2info"></a>
+        </div>
+        <div class="elmAve">
+            <a href="#" data-featherlight="#elmAveinfo"></a>
+        </div>
+        <div class="charlesStreet">
+            <a href="#" data-featherlight="#charlesStreetinfo"></a>
+        </div>
+        <div class="mtRoyal">
+            <a href="#" data-featherlight="#mtRoyalinfo"></a>
+        </div>
+        <div class="calvertStreet">
+            <a href="#" data-featherlight="#calvertStreetinfo"></a>
+        </div>
+        <div class="northAve">
+            <a href="#" data-featherlight="#northAveinfo"></a>
+        </div>
+        <div class="guilfordStreet">
+            <a href="#" data-featherlight="#guilfordStreetinfo"></a>
+        </div>
+      <!-- Point of Interest Lightboxes, Information & Links -->
+  <div class="lightbox" id="reisterstownRdinfo">
+      <h1>5801 Reisterstown Rd.</h1> <h2>Artist: James Voshell<br>1991</h2>
+            <a href="https://www.google.com/maps/place/5801+Reisterstown+Rd,+Baltimore,+MD+21215/@39.3509614,-76.6963207,17z/data=!3m1!4b1!4m5!3m4!1s0x89c81a5bcdcf5dd9:0xe47d299267d99ffe!8m2!3d39.3509573!4d-76.6941267"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="parkHeightsinfo">
+      <h1>4337 Park Heights</h1> <h2>Artist: Dana Marie Hosler<br>2009</h2>
+            <a href="https://www.google.com/maps/place/4337+Park+Heights+Ave,+Baltimore,+MD+21215/@39.3393721,-76.66795,17z/data=!3m1!4b1!4m5!3m4!1s0x89c81ae0b63db35d:0xc2be797e25713094!8m2!3d39.339368!4d-76.665756"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="parkHeights2info">
+      <h1>4000 Park Heights</h1> <h2>Artist: Lyle Kissack &amp; Gerald Ross<br>1995</h2>
+            <a href="https://www.google.com/maps/place/4000+Park+Heights+Ave,+Baltimore,+MD+21215/@39.3344785,-76.6654251,17z/data=!3m1!4b1!4m5!3m4!1s0x89c81adff5c2525d:0x7e2977d45361f51b!8m2!3d39.3344744!4d-76.6632311"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="reisterstownRd2info">
+      <h1>4000 Reisterstown Rd.</h1> <h2>Artist: Quentin Mosley<br>1990</h2>
+            <a href="https://www.google.com/maps/place/4000+Reisterstown+Rd,+Baltimore,+MD+21215/@39.3338177,-76.666643,17z/data=!3m1!4b1!4m5!3m4!1s0x89c81b1ff7eaa2e7:0xdb479a04dd8ba142!8m2!3d39.3338136!4d-76.664449"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="westStreetinfo">
+      <h1>600 West 28th St.</h1> <h2>Artist: John Ellsberry<br>1987</h2>
+            <a href="https://www.google.com/maps/place/600+W+28th+St,+Baltimore,+MD+21211/@39.3194422,-76.6274619,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804c4b30dcff3:0x4eb8acdcdb43d039!8m2!3d39.3194381!4d-76.6252679"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="westStreet2info">
+      <h1>929 West 36th St.</h1> <h2>Artist: Jennifer Ratigan<br>2006</h2>
+            <a href="https://www.google.com/maps/place/929+W+36th+St,+Baltimore,+MD+21211/@39.3309023,-76.6346322,17z/data=!3m1!4b1!4m5!3m4!1s0x89c805282ba8026d:0xfb71d4062817a746!8m2!3d39.3308982!4d-76.6324382"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="elmAveinfo">
+      <h1>3424 Elm Ave.</h1> <h2>Artist: Charles Lawrence<br>2011</h2>
+            <a href="https://www.google.com/maps/place/3424+Elm+Ave,+Baltimore,+MD+21211/@39.3293661,-76.633571,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804d7bf708815:0xe81718bec4ec0b34!8m2!3d39.329362!4d-76.631377"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="charlesStreetinfo">
+      <h1>2439 Charles St.</h1> <h2>Artist: Greg Gannon<br>2011</h2>
+            <a href="https://www.google.com/maps/place/2439+N+Charles+St,+Baltimore,+MD+21218/@39.3174771,-76.618919,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804e83ff88931:0xe9551c6cedd710b8!8m2!3d39.317473!4d-76.616725"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="mtRoyalinfo">
+      <h1>1398 Mt. Royal Ave.</h1> <h2>Artist: Shawn James<br>2007</h2>
+            <a href="https://www.google.com/maps/place/The+Midtown+Academy/@39.3084388,-76.6241212,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804bf6faa76eb:0x8a7351eed3d8afda!8m2!3d39.3084347!4d-76.6219272"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="calvertStreetinfo">
+      <h1>1617 North Calvert St.</h1> <h2>Artist: Charles Lawrence<br>1994</h2>
+            <a href="https://www.google.com/maps/place/1617+N+Calvert+St,+Baltimore,+MD+21202/@39.3081901,-76.61553,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804eb4cd2a9ef:0xcbbbbf28207ddbae!8m2!3d39.308186!4d-76.613336"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="northAveinfo">
+      <h1>2117 East North Ave.</h1> <h2>Artist: Pontella Mason<br>2007</h2>
+            <a href="https://www.google.com/maps/place/2117+E+North+Ave,+Baltimore,+MD+21213/@39.3121791,-76.590338,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8045bc612b6f1:0x816e2716f8ccdeeb!8m2!3d39.312175!4d-76.588144"target="_blank">Get Directions!</a>
+    </div>
+    <div class="lightbox" id="guilfordStreetinfo">
+      <h1>210 Guildford St.</h1> <h2>Artist: Dana Marie Hosler<br>2007</h2>
+            <a href="https://www.google.com/maps/place/Baltimore,+MD+21202/@39.2960901,-76.6247636,14z/data=!3m1!4b1!4m5!3m4!1s0x89c8049a9941c869:0x524b40315dc8fe32!8m2!3d39.2994145!4d-76.6037222"target="_blank">Get Directions!</a>
+    </div>
+   </div>
+   </main>
+</body>
+</html>
