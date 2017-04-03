@@ -1,0 +1,1985 @@
+<html>
+<head>
+  <script src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery.localScroll.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+
+    $(window).load(function() {
+        $('li.action').click(function() {
+        $(this).toggleClass('collapse');
+        });
+
+        $('li.action ul.right li a.eightyfive').click(function() {
+           $('.dummy').toggleClass('zoom85');
+           $('.zoom85notify').toggle();
+        });
+         $('li.action ul.right li a.fifty').click(function() {
+           $('.dummy').toggleClass('zoom50');
+           $('.zoom50notify').toggle();
+         });
+         $('li.action ul.right li a.onefifteen').click(function() {
+           $('.dummy').toggleClass('zoom115');
+           $('.zoom115notify').toggle();
+         });
+            // Point of Interest Mouseover/out Functions
+          $(document).ready(function() {
+          $('.brownbox').mouseover(function() {
+                  $('.brownboxname').show();
+                });
+                $('.brownbox').mouseout(function() {
+                  $('.brownboxname').hide();
+                });
+
+                $('.odysseus').mouseover(function() {
+                  $('.odysseusname').show();
+                });
+                $('.odysseus').mouseout(function() {
+                  $('.odysseusname').hide();
+                });
+
+                $('.pong').mouseover(function() {
+                  $('.pongname').show();
+                });
+                $('.pong').mouseout(function() {
+                  $('.pongname').hide();
+                });
+
+                $('.microvision').mouseover(function() {
+                  $('.microvisionname').show();
+                });
+                $('.microvision').mouseout(function() {
+                  $('.microvisionname').hide();
+                });
+
+                $('.trex').mouseover(function() {
+                  $('.trexname').show();
+                });
+                $('.trex').mouseout(function() {
+                  $('.trexname').hide();
+                });
+
+                $('.graphyx').mouseover(function() {
+                  $('.graphyxname').show();
+                });
+                $('.graphyx').mouseout(function() {
+                  $('.graphyxname').hide();
+                });
+
+                $('.fortneo').mouseover(function() {
+                  $('.fortneoname').show();
+                });
+                $('.fortneo').mouseout(function() {
+                  $('.fortneoname').hide();
+                });
+
+                $('.portplastica1').mouseover(function() {
+                  $('.portplasticaname').show();
+                });
+                $('.portplastica1').mouseout(function() {
+                  $('.portplasticaname').hide();
+                });
+
+                $('.portplastica2').mouseover(function() {
+                  $('.portplasticaname').show();
+                });
+                $('.portplastica2').mouseout(function() {
+                  $('.portplasticaname').hide();
+                });
+
+                $('.mtatari').mouseover(function() {
+                  $('.mtatariname').show();
+                });
+                $('.mtatari').mouseout(function() {
+                  $('.mtatariname').hide();
+                });
+
+                $('.arcadia1').mouseover(function() {
+                  $('.arcadianame').show();
+                });
+                $('.arcadia1').mouseout(function() {
+                  $('.arcadianame').hide();
+                });
+
+                $('.arcadia2').mouseover(function() {
+                  $('.arcadianame').show();
+                });
+                $('.arcadia2').mouseout(function() {
+                  $('.arcadianame').hide();
+                });
+
+                $('.warshawdesert').mouseover(function() {
+                  $('.warshawdesertname').show();
+                });
+                $('.warshawdesert').mouseout(function() {
+                  $('.warshawdesertname').hide();
+                });
+
+                $('.ataribluffs').mouseover(function() {
+                  $('.ataribluffsname').show();
+                });
+                $('.ataribluffs').mouseout(function() {
+                  $('.ataribluffsname').hide();
+                });
+                $('.thejag').mouseover(function() {
+                  $('.thejagname').show();
+                });
+                $('.thejag').mouseout(function() {
+                  $('.thejagname').hide();
+                });
+
+                $('.lynxpeak').mouseover(function() {
+                  $('.lynxpeakname').show();
+                });
+                $('.lynxpeak').mouseout(function() {
+                  $('.lynxpeakname').hide();
+                });
+
+                $('.nintopia').mouseover(function() {
+                  $('.nintopianame').show();
+                });
+                $('.nintopia').mouseout(function() {
+                  $('.nintopianame').hide();
+                });
+
+                $('.nintopolis').mouseover(function() {
+                  $('.nintopolisname').show();
+                });
+                $('.nintopolis').mouseout(function() {
+                  $('.nintopolisname').hide();
+                });
+
+                $('.blackwood').mouseover(function() {
+                  $('.blackwoodname').show();
+                });
+                $('.blackwood').mouseout(function() {
+                  $('.blackwoodname').hide();
+                });
+
+                $('.magmacart').mouseover(function() {
+                  $('.magmacartname').show();
+                });
+                $('.magmacart').mouseout(function() {
+                  $('.magmacartname').hide();
+                });
+
+                $('.porttendo').mouseover(function() {
+                  $('.porttendoname').show();
+                });
+                $('.porttendo').mouseout(function() {
+                  $('.porttendoname').hide();
+                });
+
+                $('.thecube').mouseover(function() {
+                  $('.thecubename').show();
+                });
+                $('.thecube').mouseout(function() {
+                  $('.thecubename').hide();
+                });
+
+                $('.thewall1').mouseover(function() {
+                  $('.thewallname').show();
+                });
+                $('.thewall1').mouseout(function() {
+                  $('.thewallname').hide();
+                });
+
+                $('.thewall2').mouseover(function() {
+                  $('.thewallname').show();
+                });
+                $('.thewall2').mouseout(function() {
+                  $('.thewallname').hide();
+                });
+
+                $('.mtwii').mouseover(function() {
+                  $('.mtwiiname').show();
+                });
+                $('.mtwii').mouseout(function() {
+                  $('.mtwiiname').hide();
+                });
+
+                $('.wiiu').mouseover(function() {
+                  $('.wiiuname').show();
+                });
+                $('.wiiu').mouseout(function() {
+                  $('.wiiuname').hide();
+                });
+
+                $('.hybridhaven').mouseover(function() {
+                  $('.hybridhavenname').show();
+                });
+                $('.hybridhaven').mouseout(function() {
+                  $('.hybridhavenname').hide();
+                });
+
+                $('.republicofphil').mouseover(function() {
+                  $('.republicofphilname').show();
+                });
+                $('.republicofphil').mouseout(function() {
+                  $('.republicofphilname').hide();
+                });
+
+                $('.segacity').mouseover(function() {
+                  $('.segacityname').show();
+                });
+                $('.segacity').mouseout(function() {
+                  $('.segacityname').hide();
+                });
+
+                $('.saturnalia').mouseover(function() {
+                  $('.saturnalianame').show();
+                });
+                $('.saturnalia').mouseout(function() {
+                  $('.saturnalianame').hide();
+                });
+
+                $('.capecast').mouseover(function() {
+                  $('.capecastname').show();
+                });
+                $('.capecast').mouseout(function() {
+                  $('.capecastname').hide();
+                });
+
+                $('.ggisland').mouseover(function() {
+                  $('.ggislandname').show();
+                });
+                $('.ggisland').mouseout(function() {
+                  $('.ggislandname').hide();
+                });
+
+                $('.nomadisland').mouseover(function() {
+                  $('.nomadislandname').show();
+                });
+                $('.nomadisland').mouseout(function() {
+                  $('.nomadislandname').hide();
+                });
+
+                $('.sonystation').mouseover(function() {
+                  $('.sonystationname').show();
+                });
+                $('.sonystation').mouseout(function() {
+                  $('.sonystationname').hide();
+                });
+
+                $('.themonolith').mouseover(function() {
+                  $('.themonolithname').show();
+                });
+                $('.themonolith').mouseout(function() {
+                  $('.themonolithname').hide();
+                });
+
+                $('.sonycity').mouseover(function() {
+                  $('.sonycityname').show();
+                });
+                $('.sonycity').mouseout(function() {
+                  $('.sonycityname').hide();
+                });
+
+                $('.vitaisland').mouseover(function() {
+                  $('.vitaislandname').show();
+                });
+                $('.vitaisland').mouseout(function() {
+                  $('.vitaislandname').hide();
+                });
+
+                $('.bluvale').mouseover(function() {
+                  $('.bluvalename').show();
+                });
+                $('.bluvale').mouseout(function() {
+                  $('.bluvalename').hide();
+                });
+
+                $('.dukeravine').mouseover(function() {
+                  $('.dukeravinename').show();
+                });
+                $('.dukeravine').mouseout(function() {
+                  $('.dukeravinename').hide();
+                });
+
+                $('.circusprime').mouseover(function() {
+                  $('.circusprimename').show();
+                });
+                $('.circusprime').mouseout(function() {
+                  $('.circusprimename').hide();
+                });
+
+                $('.templeofone').mouseover(function() {
+                  $('.templeofonename').show();
+                });
+                $('.templeofone').mouseout(function() {
+                  $('.templeofonename').hide();
+                });
+         });
+       });
+    </script>
+
+<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Kotta+One" rel="stylesheet" type="text/css">
+
+    <style>
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            min-height: 100%;
+            min-width: 100%;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        main {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: scroll; cursor: grab; cursor : -o-grab; cursor : -moz-grab; cursor : -webkit-grab;
+        }
+        .dummy {
+            transform-origin: left top;
+            transition: all 0.5s ease;
+        }
+        .zoom115 {
+            transform :scale(1.15);
+            transform-origin: left top;
+        }
+        .zoom115notify {
+           display:none;
+           position: fixed;
+           bottom: 35px;
+           right: 20px;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .zoom85 {
+            transform :scale(.85);
+            transform-origin: left top;
+        }
+        .zoom85notify {
+           display:none;
+           position: fixed;
+           bottom: 35px;
+           right: 20px;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .zoom50 {
+            transform :scale(.5);
+            transform-origin: left top;
+        }
+        .zoom50notify {
+           display:none;
+           position: fixed;
+           bottom: 35px;
+           right: 20px;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+
+        header {
+            position: fixed;
+            bottom: 0;
+            z-index: 1;
+            background-image: url("staticnav.svg");
+            background-position: bottom;
+            background-size: fill;
+            background-repeat: no-repeat;
+            height: 10vh;
+            width: 100%;
+            color: rgb(255,255,255);
+            box-sizing: border-box;
+        }
+        li {
+            list-style: none;
+            font-size: .875rem;
+            line-height: 1.5em;
+        }
+        header > ul {
+            padding: 0px;
+            margin: 0;
+            height: 100%;
+            display: table;
+        }
+        header > ul > li {
+
+            cursor: pointer;
+            display: table-cell;
+            width: 50vw;
+            height: 100%;
+            line-height: 13vh;
+            position: relative;
+            text-align: center;
+        }
+        header > ul > li > ul {
+            position: absolute;
+            bottom: -6.5rem;
+            left: 20%;
+            height: 30vh;
+            overflow: scroll;
+            z-index: 1;
+            transition: all 0.3s ease;
+            background: #ffe4c0;
+            border-style:solid;
+            border-width: thick;
+            border-color: #66462c;
+            padding: 10px;
+            opacity: 0;
+        }
+        header > ul > li > ul > li {
+            cursor: initial;
+            font-size: 14pt;
+        }
+        header > ul > li > ul.right {
+            right: 20%;
+            left: inherit;
+            font-size: 16pt;
+            height: 25vh;
+            z-index: 1;
+        }
+        header > ul > li.collapse > ul {
+            bottom: -2.5em;
+            opacity: 1;
+        }
+        h1, h2, li {
+            font-family: "Kotta One", serif;
+            color: #66462c;
+        }
+        h1 {
+          font-size: 20pt;
+        }
+        h2 {
+          font-size: 16pt;
+        }
+        h3 {
+          text-align: center;
+          line-height: 9vh;
+          font-size: 20pt;
+          font-family: "Kotta One", serif;
+          color: #66462c;
+        }
+        h4 {
+          font-family: "Kotta One", serif;
+          font-size: 15pt;
+          color: #ffffff;
+        }
+        li {
+          font-size: 20pt;
+        }
+        p {
+          font-family: "Kotta One", serif;
+          font-size: 14.5pt;
+          color: #1c0e03;
+          line-height: 21.5pt;
+          margin-right: 7.5%;
+        }
+        p > a, a:visited {
+          color: #1c0e03;
+          font-family: "Kotta One", serif;
+          font-size: 14.5pt;
+          line-height: 20pt;
+        }
+        a:link, a:visited {
+          color: #1c0e03;
+          cursor: auto;
+          text-decoration: underline;
+        }
+        a:link:active, a:hover {
+          transition: ease 0.3s;
+          color: #cc5131;
+        }
+        div {
+            position: absolute;
+        }
+        div a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            transition: .3s ease;
+            opacity: .75;
+        }
+        main > div a:hover { /*Points of Interest Gradient*/
+          background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 65%); /* Chrome10-25,Safari5.1-6 */
+          background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */opacity: .35;
+        }
+        .lightbox {
+          display: none;
+        }
+        .featherlight-content {
+          width: 600px;
+          height: 750px;
+        }
+        .featherlight .featherlight-content {
+          position: relative;
+          text-align: left;
+          vertical-align: middle;
+          display: inline-block;
+          overflow: auto;
+          padding: 30px;
+          border-bottom: 25px solid transparent;
+          margin-left: 7.5%;
+          margin-right: 7.5%;
+          max-height: 95%;
+          background: #ffe4c0;
+          cursor: auto;
+          white-space: auto;
+          border-style: solid;
+          border-width: thick;
+          border-color: #66462c;
+}
+        /*Point of Interest Clickable Zones*/
+      .brownbox {
+            top: 130px;
+            left: 200px;
+            width: 525px;
+            height: 400px;
+            border-radius: 200px;
+        }
+        .brownbox a {
+            border-radius: 200px;
+        }
+        .brownboxname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .odysseus {
+            top: 420px;
+            left: 920px;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+        }
+        .odysseus a {
+            border-radius: 100px;
+        }
+        .odysseusname {
+          display:none;
+          position: fixed;
+          right: 0;
+          left: 0;
+          margin-right: auto;
+          margin-left: auto;
+          padding: 0px;
+          margin: 0px;
+        }
+        .pong {
+          top: 460px;
+          left: 550px;
+          height: 200px;
+          width: 300px;
+          border-radius: 100px;
+        }
+        .pong a {
+          border-radius: 100px;
+        }
+        .pongname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .microvision {
+          top: 930px;
+          left: 720px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .microvision a {
+          border-radius: 100px;
+        }
+        .microvisionname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .trex {
+          top: 400px;
+          left: 2280px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .trex a {
+          border-radius: 100px;
+        }
+        .trexname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .graphyx {
+          top: 590px;
+          left: 2273px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .graphyx a {
+          border-radius: 100px;
+        }
+        .graphyxname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .fortneo {
+          top: 650px;
+          left: 2627px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .fortneo a {
+          border-radius: 100px;
+        }
+        .fortneoname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .portplastica1 {
+          top: 2327px;
+          left: 1755px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .portplastica1 a {
+          border-radius: 100px;
+        }
+        .portplasticaname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .mtatari {
+          top: 525px;
+          left: 1097px;
+          height: 400px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .mtatari a {
+          border-radius: 100px;
+        }
+        .mtatariname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .arcadia1 {
+          top: 190px;
+          left: 1249px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .arcadia1 a {
+          border-radius: 100px;
+        }
+        .arcadia2 {
+          top: 56px;
+          left: 1540px;
+          height: 200px;
+          width: 400px;
+          border-radius: 100px;
+        }
+        .arcadia2 a {
+          border-radius: 100px;
+        }
+        .arcadianame {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .warshawdesert {
+          top: 930px;
+          left: 1562px;
+          height: 300px;
+          width: 300px;
+          border-radius: 100px;
+        }
+        .warshawdesert a {
+          border-radius: 100px;
+        }
+        .warshawdesertname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .ataribluffs {
+          top: 670px;
+          left: 1875px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .ataribluffs a {
+          border-radius: 100px;
+        }
+        .ataribluffsname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .thejag {
+          top: 980px;
+          left: 2604px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .thejag a {
+          border-radius: 100px;
+        }
+        .thejagname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .lynxpeak {
+          top: 833px;
+          left: 2253px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .lynxpeak a {
+          border-radius: 100px;
+        }
+        .lynxpeakname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .nintopia {
+          top: 1220px;
+          left: 2090px;
+          height: 400px;
+          width: 400px;
+          border-radius: 100px;
+        }
+        .nintopia a {
+          border-radius: 100px;
+        }
+        .nintopianame {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .nintopolis {
+          top: 1500px;
+          left: 2400px;
+          height: 300px;
+          width: 400px;
+          border-radius: 100px;
+        }
+        .nintopolis a {
+          border-radius: 100px;
+        }
+        .nintopolisname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .blackwood {
+          top: 1913px;
+          left: 1964px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .blackwood a {
+          border-radius: 100px;
+        }
+        .blackwoodname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .magmacart {
+          top: 1750px;
+          left: 2960px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .magmacart a {
+          border-radius: 100px;
+        }
+        .magmacartname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .porttendo {
+          top: 1785px;
+          left: 3560px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .porttendo a {
+          border-radius: 100px;
+        }
+        .porttendoname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .thecube {
+          top: 2420px;
+          left: 3233px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .thecube a {
+          border-radius: 100px;
+        }
+        .thecubename {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .thewall1 {
+          top: 2430px;
+          left: 3744px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .thewall1 a {
+          border-radius: 100px;
+        }
+        .thewall2 {
+          top: 2676px;
+          left: 4269px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .thewall2 a {
+          border-radius: 100px;
+        }
+        .thewallname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .mtwii {
+          top: 2775px;
+          left: 3740px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .mtwii a {
+          border-radius: 100px;
+        }
+        .mtwiiname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .wiiu {
+          top: 3080px;
+          left: 4048px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .wiiu a {
+          border-radius: 100px;
+        }
+        .wiiuname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .hybridhaven {
+          top: 3275px;
+          left: 4462px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .hybridhaven a {
+          border-radius: 100px;
+        }
+        .hybridhavenname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .republicofphil {
+          top: 1180px;
+          left: 2763px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .republicofphil a {
+          border-radius: 100px;
+        }
+        .republicofphilname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .segacity {
+          top: 1520px;
+          left: 835px;
+          height: 200px;
+          width: 450px;
+          border-radius: 100px;
+        }
+        .segacity a {
+          border-radius: 100px;
+        }
+        .segacityname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .saturnalia {
+          top: 1980px;
+          left: 938px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .saturnalia a {
+          border-radius: 100px;
+        }
+        .saturnalianame {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .capecast {
+          top: 2388px;
+          left: 938px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .capecast a {
+          border-radius: 100px;
+        }
+        .capecastname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .ggisland {
+          top: 1837px;
+          left: 511px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .ggisland a {
+          border-radius: 100px;
+        }
+        .ggislandname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .nomadisland {
+          top: 2072px;
+          left: 575px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .nomadisland a {
+          border-radius: 100px;
+        }
+        .nomadislandname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .sonystation {
+          top: 680px;
+          left: 3128px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .sonystation a {
+          border-radius: 100px;
+        }
+        .sonystationname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .themonolith {
+          top: 765px;
+          left: 3430px;
+          height: 400px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .themonolith a {
+          border-radius: 100px;
+        }
+        .themonolithname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .sonycity {
+          top: 1360px;
+          left: 3875px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .sonycity a {
+          border-radius: 100px;
+        }
+        .sonycityname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .vitaisland {
+          top: 1912px;
+          left: 3904px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .vitaisland a {
+          border-radius: 100px;
+        }
+        .vitaislandname {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .bluvale {
+          top: 1995px;
+          left: 4396px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .bluvale a {
+          border-radius: 100px;
+        }
+        .bluvalename {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .dukeravine {
+          top: 2534px;
+          left: 2363px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .dukeravine a {
+          border-radius: 100px;
+        }
+        .dukeravinename {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .circusprime {
+          top: 2780px;
+          left: 2950px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .circusprime a {
+          border-radius: 100px;
+        }
+        .circusprimename {
+           display:none;
+           position: fixed;
+           right: 0;
+           left: 0;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 0px;
+           margin: 0px;
+        }
+        .templeofone {
+          top: 3253px;
+          left: 2811px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
+        }
+        .templeofone a {
+          border-radius: 100px;
+          }
+        .templeofonename {
+             display:none;
+             position: fixed;
+             right: 0;
+             left: 0;
+             margin-right: auto;
+             margin-left: auto;
+             padding: 0px;
+             margin: 0px;
+          }
+
+    </style>
+
+</head>
+<body>
+    <header>
+      <div class="zoom115notify">
+          <h4>Zoom 115%</h4>
+      </div>
+      <div class="zoom50notify">
+          <h4>Zoom 50%</h4>
+      </div>
+      <div class="zoom85notify">
+          <h4>Zoom 85%</h4>
+      </div>
+          <!-- Point of Interest Title divs -->
+    <div class="brownboxname">
+          <h3>Baer Island</h3>
+      </div>
+      <div class="odysseusname">
+          <h3>Commonwealth of Odysseus</h3>
+      </div>
+      <div class="pongname">
+          <h3>Pong Archipelago</h3>
+      </div>
+      <div class="microvisionname">
+          <h3>Micro Isle</h3>
+      </div>
+      <div class="fortneoname">
+          <h3>Fort Neo</h3>
+      </div>
+      <div class="trexname">
+          <h3>Trex Temples</h3>
+      </div>
+      <div class="graphyxname">
+          <h3>Lost City of Graphyx</h3>
+      </div>
+      <div class="portplasticaname">
+          <h3>Port Plastica</h3>
+      </div>
+      <div class="mtatariname">
+          <h3>Mt. Atari</h3>
+      </div>
+      <div class="arcadianame">
+          <h3>Banks of Arcadia</h3>
+      </div>
+      <div class="warshawdesertname">
+          <h3>The Warshaw Desert</h3>
+      </div>
+      <div class="ataribluffsname">
+          <h3>Atari Bluffs</h3>
+      </div>
+      <div class="thejagname">
+          <h3>The Jag</h3>
+      </div>
+      <div class="lynxpeakname">
+          <h3>Lynx Peak</h3>
+      </div>
+      <div class="nintopianame">
+          <h3>Nintopia</h3>
+      </div>
+      <div class="nintopolisname">
+          <h3>Nintopolis</h3>
+      </div>
+      <div class="blackwoodname">
+          <h3>The Redwood Tree</h3>
+      </div>
+      <div class="magmacartname">
+          <h3>Magma Cartridge</h3>
+      </div>
+      <div class="porttendoname">
+          <h3>Port Tendo</h3>
+      </div>
+      <div class="thecubename">
+          <h3>The Cube</h3>
+      </div>
+      <div class="thewallname">
+          <h3>The Great Wall of Nintopolis</h3>
+      </div>
+      <div class="mtwiiname">
+          <h3>Mt. Wii</h3>
+      </div>
+      <div class="wiiuname">
+          <h3>Wii University</h3>
+      </div>
+      <div class="hybridhavenname">
+          <h3>Hybrid Haven</h3>
+      </div>
+      <div class="republicofphilname">
+          <h3>Republic of Phil</h3>
+      </div>
+      <div class="segacityname">
+          <h3>Sega Mega-City</h3>
+      </div>
+      <div class="saturnalianame">
+          <h3>Saturnalia</h3>
+      </div>
+      <div class="capecastname">
+          <h3>Cape Cast</h3>
+      </div>
+      <div class="ggislandname">
+          <h3>GG Atoll</h3>
+      </div>
+      <div class="nomadislandname">
+          <h3>Nomad Isle</h3>
+      </div>
+      <div class="sonystationname">
+          <h3>Sony Station</h3>
+      </div>
+      <div class="themonolithname">
+          <h3>The Monolith</h3>
+      </div>
+      <div class="sonycityname">
+          <h3>Sony City</h3>
+      </div>
+      <div class="vitaislandname">
+          <h3>Vita Island</h3>
+      </div>
+      <div class="bluvalename">
+          <h3>Blu Vale</h3>
+      </div>
+      <div class="dukeravinename">
+          <h3>Duke Ravine</h3>
+      </div>
+      <div class="circusprimename">
+          <h3>Circus Prime</h3>
+      </div>
+      <div class="templeofonename">
+          <h3>Temple of the One</h3>
+      </div>
+
+    <ul>
+            <li class="action">Legend
+              <!-- Legend href list -->
+                <ul class="reaction">
+                    <li><a href="#" data-featherlight="#brownboxinfo">The Brown Box</a></li>
+                    <li><a href="#" data-featherlight="#ponginfo">Pong Consoles</li>
+                    <li><a href="#" data-featherlight="#odysseusinfo">Magnavox Odyssey</a></li>
+                    <li><a href="#" data-featherlight="#mtatariinfo">Atari 2700</a></li>
+                    <li><a href="#" data-featherlight="#arcadiainfo">Arcades</a></li>
+                    <li><a href="#" data-featherlight="#microvisioninfo">Microvision</a></li>
+                    <li><a href="#" data-featherlight="#ataribluffsinfo">Atari 5200</a></li>
+                    <li><a href="#" data-featherlight="#trexinfo">Vectrex</a></li>
+                    <li><a href="#" data-featherlight="#warshawdesertinfo">Market Crash</a></li>
+                    <li><a href="#" data-featherlight="#nintopiainfo">NES</a></li>
+                    <li><a href="#" data-featherlight="#ataribluffsinfo">Atari 7800</a></li>
+                    <li><a href="#" data-featherlight="#segacityinfo">Master System</a></li>
+                    <li><a href="#" data-featherlight="#graphyxinfo">TurboGraphyx16</a></li>
+                    <li><a href="#" data-featherlight="#lynxpeakinfo">Atari Lynx</a></li>
+                    <li><a href="#" data-featherlight="#nintopiainfo">Gameboy</a></li>
+                    <li><a href="#" data-featherlight="#segacityinfo">Genesis</a></li>
+                    <li><a href="#" data-featherlight="#portplasticainfo">Tiger Handhelds</a></li>
+                    <li><a href="#" data-featherlight="#fortneoinfo">Neo Geo</a></li>
+                    <li><a href="#" data-featherlight="#ggislandinfo">Game Gear</a></li>
+                    <li><a href="#" data-featherlight="#nintopolisinfo">SNES</a></li>
+                    <li><a href="#" data-featherlight="#republicofphilinfo">CD-i</a></li>
+                    <li><a href="#" data-featherlight="#thejaginfo">Atari Jaguar</a></li>
+                    <li><a href="#" data-featherlight="#nomadislandinfo">Gensis Nomad</a></li>
+                    <li><a href="#" data-featherlight="#saturnaliainfo">Sega Saturn</a></li>
+                    <li><a href="#" data-featherlight="#sonystationinfo">Playstation 1</a></li>
+                    <li><a href="#" data-featherlight="#blackwoodinfo">Virtual Boy</a></li>
+                    <li><a href="#" data-featherlight="#blackwoodinfo">R-Zone</a></li>
+                    <li><a href="#" data-featherlight="#magmacartinfo">Nintendo 64</a></li>
+                    <li><a href="#" data-featherlight="#portplasticainfo">Game.com</a></li>
+                    <li><a href="#" data-featherlight="#capecastinfo">Dreamcast</a></li>
+                    <li><a href="#" data-featherlight="#themonolithinfo">Playstation 2</a></li>
+                    <li><a href="#" data-featherlight="#porttendoinfo">Gameboy Advance</a></li>
+                    <li><a href="#" data-featherlight="#thecubeinfo">Gamecube</a></li>
+                    <li><a href="#" data-featherlight="#dukeravineinfo">Xbox</a></li>
+                    <li><a href="#" data-featherlight="#thewallinfo">Nintendo DS</a></li>
+                    <li><a href="#" data-featherlight="#sonycityinfo">Playstation Portable</a></li>
+                    <li><a href="#" data-featherlight="#circusprimeinfo">Xbox 360</a></li>
+                    <li><a href="#" data-featherlight="#sonycityinfo">Playstation 3</a></li>
+                    <li><a href="#" data-featherlight="#mtwiiinfo">Wii</a></li>
+                    <li><a href="#" data-featherlight="#thewallinfo">Nintendo 3DS</a></li>
+                    <li><a href="#" data-featherlight="#vitaislandinfo">Playstation Vita</a></li>
+                    <li><a href="#" data-featherlight="#wiiuinfo">WiiU</a></li>
+                    <li><a href="#" data-featherlight="#bluvaleinfo">Playstation 4</a></li>
+                    <li><a href="#" data-featherlight="#templeofoneinfo">Xbox One</a></li>
+                    <li><a href="#" data-featherlight="#hybridhaveninfo">Nintendo Switch</a></li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                </ul>
+            </li>
+             <li class="action">Options
+               <!-- Zoom & Options -->
+                <ul class="reaction right">
+                  <li><a href="#" class="onefifteen">Zoom In 115%</a></li>
+                  <li><a href="#" class="eightyfive">Zoom Out 85%</a></li>
+                  <li><a href="#" class="fifty">Zoom Out 50%</a></li>
+                  <li><a href="#" data-featherlight="#instructions">Instructions</a><li>
+                  <li><a href="#" data-featherlight="#introduction">Introduction</a></li>
+
+                </ul>
+            </li>
+       </ul>
+    </header>
+    <main class="dragscroll">
+        <div class="dummy">
+        <img src="mapFINAL.png" />
+
+        <!-- Featherlight a href -->
+      <div class="brownbox">
+            <a href="#" data-featherlight="#brownboxinfo"></a>
+        </div>
+        <div class="odysseus">
+            <a href="#" data-featherlight="#odysseusinfo"></a>
+        </div>
+        <div class="pong">
+            <a href="#" data-featherlight="#ponginfo"></a>
+        </div>
+        <div class="mtatari" id="mtatari">
+            <a href="#" data-featherlight="#mtatariinfo"></a>
+        </div>
+        <div class="arcadia1">
+            <a href="#" data-featherlight="#arcadiainfo"></a>
+        </div>
+        <div class="arcadia2">
+            <a href="#" data-featherlight="#arcadiainfo"></a>
+        </div>
+        <div class="portplastica1">
+            <a href="#" data-featherlight="#portplasticainfo"></a>
+        </div>
+        <div class="portplastica2">
+            <a href="#" data-featherlight="#portplasticainfo"></a>
+        </div>
+        <div class="microvision">
+            <a href="#" data-featherlight="#microvisioninfo"></a>
+        </div>
+        <div class="trex">
+            <a href="#" data-featherlight="#trexinfo"></a>
+        </div>
+        <div class="graphyx">
+            <a href="#" data-featherlight="#graphyxinfo"></a>
+        </div>
+        <div class="fortneo">
+            <a href="#" data-featherlight="#fortneoinfo"></a>
+        </div>
+        <div class="warshawdesert">
+            <a href="#" data-featherlight="#warshawdesertinfo"></a>
+        </div>
+        <div class="ataribluffs">
+            <a href="#" data-featherlight="#ataribluffsinfo"></a>
+        </div>
+        <div class="lynxpeak">
+            <a href="#" data-featherlight="#lynxpeakinfo"></a>
+        </div>
+        <div class="thejag">
+            <a href="#" data-featherlight="#thejaginfo"></a>
+        </div>
+        <div class="nintopia">
+            <a href="#" data-featherlight="#nintopiainfo"></a>
+        </div>
+        <div class="nintopolis">
+            <a href="#" data-featherlight="#nintopolisinfo"></a>
+        </div>
+        <div class="blackwood">
+            <a href="#" data-featherlight="#blackwoodinfo"></a>
+        </div>
+        <div class="magmacart">
+            <a href="#" data-featherlight="#magmacartinfo"></a>
+        </div>
+        <div class="porttendo">
+            <a href="#" data-featherlight="#porttendoinfo"></a>
+        </div>
+        <div class="thewall1">
+            <a href="#" data-featherlight="#thewallinfo"></a>
+        </div>
+        <div class="thewall2">
+            <a href="#" data-featherlight="#thewallinfo"></a>
+        </div>
+        <div class="thecube">
+            <a href="#" data-featherlight="#thecubeinfo"></a>
+        </div>
+        <div class="mtwii">
+            <a href="#" data-featherlight="#mtwiiinfo"></a>
+        </div>
+        <div class="wiiu">
+            <a href="#" data-featherlight="#wiiuinfo"></a>
+        </div>
+        <div class="hybridhaven">
+            <a href="#" data-featherlight="#hybridhaveninfo"></a>
+        </div>
+        <div class="republicofphil">
+            <a href="#" data-featherlight="#republicofphilinfo"></a>
+        </div>
+        <div class="segacity">
+            <a href="#" data-featherlight="#segacityinfo"></a>
+        </div>
+        <div class="saturnalia">
+            <a href="#" data-featherlight="#saturnaliainfo"></a>
+        </div>
+        <div class="capecast">
+            <a href="#" data-featherlight="#capecastinfo"></a>
+        </div>
+        <div class="ggisland">
+            <a href="#" data-featherlight="#ggislandinfo"></a>
+        </div>
+        <div class="nomadisland">
+            <a href="#" data-featherlight="#nomadislandinfo"></a>
+        </div>
+        <div class="sonystation">
+            <a href="#" data-featherlight="#sonystationinfo"></a>
+        </div>
+        <div class="themonolith">
+            <a href="#" data-featherlight="#themonolithinfo"></a>
+        </div>
+        <div class="sonycity">
+            <a href="#" data-featherlight="#sonycityinfo"></a>
+        </div>
+        <div class="vitaisland">
+            <a href="#" data-featherlight="#vitaislandinfo"></a>
+        </div>
+        <div class="bluvale">
+            <a href="#" data-featherlight="#bluvaleinfo"></a>
+        </div>
+        <div class="dukeravine">
+            <a href="#" data-featherlight="#dukeravineinfo"></a>
+        </div>
+        <div class="circusprime">
+            <a href="#" data-featherlight="#circusprimeinfo"></a>
+        </div>
+        <div class="templeofone">
+            <a href="#" data-featherlight="#templeofoneinfo"></a>
+        </div>
+
+      <!-- Point of Interest Lightboxes, Information & Links -->
+  <div class="lightbox" id="brownboxinfo">
+      <h1>The Brown Box</h1> <h2>Concepted in 1967</h2>
+      <p>Your journey starts here with a mysterious brown box. Developed by Ralph Baer in 1967, it was the first prototype of a video game console.
+        The name Brown Box comes from the brown tape Baer and his team wrapped the device in, which mimicked wood veneer. It was primitive, but
+        this little box would pave the way for an entire industry.<br> <br>
+        <a href="http://americanhistory.si.edu/collections/search/object/nmah_1301997"target="_blank">Read more about the Brown Box!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="odysseusinfo">
+      <h1>Magnavox Odyssey</h1> <h2>Released in 1972 <br>350k units sold</h2>
+      <p>Magnavox was the company who bought and invested in Ralph Baer's invention. The curious little device would later be developed into the Odyssey.
+        It was simply a sophisticated Pong machine, requiring two players who could engage in games like &ldquo;Cat and Mouse,&rdquo; &ldquo;Ski Mountain,&rdquo; and &ldquo;Simon Says.&rdquo;
+        The simulated graphics were restricted to three dots, and a vertical line on the screen. Colors and visuals were implemented with the use of thin plastic screen overlays.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Magnavox_Odyssey"target="_blank">Read more about Odyssey!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="ponginfo">
+      <h1>Pong Consoles</h1> <h2>Released through 1972&mdash;1977</h2>
+      <p>&ldquo;Pong&rdquo; is widely considered the first video game. While this isn't technically true since the Odyssey had the first set of video games, it was the first game to inspire companies to start
+        developing video games. The first &ldquo;Pong&rdquo; game was developed by Allan Alcorn, and the first commerical release made by Atari. Originally meant to played in a cabinet,
+        many companies started creating their own home versions of pong. Companies like Sears, Coleco, and even Nintendo developed their own versions of Pong. There were plenty of lawsuits fought over
+        who had the rights to &ldquo;Pong.&rdquo; <br> <br>
+        <a href="https://en.wikipedia.org/wiki/Pong"target="_blank">Read more about Pong Consoles, there's a ton of them!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="mtatariinfo">
+      <h1>Atari 2600</h1> <h2>Released in 1977 <br>30 million units sold</h2>
+      <p>The Atari 2600 (Twenty-six-hundred) was the console which really kick-started the entire home console industry. Arcades were popular
+        at the time, and this system allowed arcade goers to bring a video gaming experience into their living rooms, but also allowed them to play
+        different games via cartridges. Game difficulty and modifications could be applied by switches on the console. Adjusted to inflation,
+        this thing would cost over $780!<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Atari_2600"target="_blank">Read more about 2600!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="arcadiainfo">
+      <h1>Arcades</h1> <h2>Most popular through 1978&mdash;1982</h2>
+      <p>While arcade cabinets are not techinally home consoles, their influence on the market and game design was imperative in the late
+        70's and 80's. In 1981, the arcade industry was worth little over 8 billion dollars, which is equal to about 21 billion today. Many prominent
+        games started in an arcades, classics like Pac-Man, Galaga, Space Invaders, and many more! These games would eventually be licensed to Atari
+        for development on the Atari 2600.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Arcade_game#Golden_age"target="_blank">Read more about the Golden Age of Arcades!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="portplasticainfo">
+      <h1>Tiger Electronic Handheld Games</h1> <h2>Released throughout the '90s</h2>
+      <p>Tiger Electronics was a subsidary business of Hasbro, and was responsible for flooding the market with cheap, plastic handheld games.
+        Trying to capitalize off the success of the Gameboy, Tiger released individual games in their custom casing. Each Tiger game was it's
+        own game, there was no need for cartridges. However, these games were produced inexpensively, and it really shows. the graphics are all
+        static image cells, comparable to digital watches. The controls are also very primitive, with some only having a forward and shoot button.
+        The Tiger Game.com was surprisingly innovative, as it was the first handheld game device with internet access and a touchscreen.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Tiger_Electronics"target="_blank">Read more about Tiger Electronics!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="microvisioninfo">
+      <h1>Mattell Microvision</h1> <h2>Released in 1979</h2>
+      <p>This special little device is the very first handheld console ever produced! The Microvision unfortunately had a lot of technical blunders, and were primitively assmebled.
+        The screens were prone to rotting, the microprocessor was easily damaged, and the 12 button keyboard did not age well. The console sold surprisingly well by most reports, (none of which have a definite number)
+        but due to lack of support and only 13 released games for the console, it was discontinued two years after it's release.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Microvision"target="_blank">Read more about Microvision!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="trexinfo">
+      <h1>Vectrex</h1> <h2>Released in 1982</h2>
+      <p>The Vectrex is the first, and only console to ever be based entirely with vector graphics. The console also included it's own screen, which
+        looks like a little tube television. The system would play games on cartridges, and since it could not simulate color, games would come packaged with a
+        thin plastic screen overlay specifically made for the game.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Vectrex" target="_blank">Read more about Vectrex!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="graphyxinfo">
+      <h1>Turbographyx16</h1> <h2>Released in 1987 <br>5.8 million units sold</h2>
+      <p>Pronounced: &ldquo;Turbo Graphics Sixteen&rdquo;<br>Hudson Soft and NEC joined forces to create the first ever 16-bit console. Unlike other consoles of it's time which played games on cartridges, the TurboGraphyx16
+        played games on data cards known as HuCards. The cards were designed by Hudson Soft, who were trying to pitch their advanced cards to Nintendo at the time. When Nintendo
+        refused, Hudson Soft would not back down and found another investor. This console once held the world record for smallest console!<br> <br>
+        <a href="https://en.wikipedia.org/wiki/TurboGrafx-16" target="_blank">Read more about TurboGraphyx16!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="fortneoinfo">
+      <h1>Neo Geo</h1> <h2>Released in 1991 <br>980k units sold</h2>
+      <p>Neo Geo was the closest a consumer could get to having an actual arcade game in their home without the cabinet. The console initially sold for $650, which is about $1000 today. While the console did
+        not sell well due to it's immensely high price tag, the console has a cult following even to this day, with both commercial and personal bootlegging. Neo Geo was the first console to introduce memory cards,
+        allowing players to save their game progress on an easily transportable card.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Neo_Geo"target="_blank">Read more about NeoGeo!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="warshawdesertinfo">
+      <h1>The Video Game Market Crash</h1> <h2>Released in 1983</h2>
+      <p>After the console market was flooded with numerous Pong consoles and Atari 2600 copycats, and inferior quality games such as Pac-Man and the infamous E.T. (which was single handedly developed by Howard Scott Warshaw
+         in only five weeks, talk about pressure!) for the 2600, the video game market took a massive hit. The entire industry dropped by nearly 97% and dissolved Atari into several companies, which were sold to the highest
+         bidders. Atari buried a large amount of defunct consoles and game cartridges in the Alamogordo Desert, dubbed as the Atari Landfill.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/North_American_video_game_crash_of_1983"target="_blank">Read more about the Market Crash of '83'!</a>
+        <a href="https://en.wikipedia.org/wiki/Atari_video_game_burial"target="_blank">Read more about the Atari Landfill!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="ataribluffsinfo">
+      <h1>Atari 5200 and Atari 7800</h1> <h2>The 5200 released in 1982 <br>1 million units sold,<br><br>The 7800 released in 1986 <br>100k units sold</h2>
+      <p>The Atari 5200 (Fifty-two-hundred) was Atari's attempt to captalize on the 2600's success, but it could not compare. It was released to little fanfare, as it was very bulky system, was not compatible with the expasnive
+        library of 2600 games, and were prone to malfunctions, specifically with the controller.<br>
+        To address the poor functionality of the 5200, Atari released the 7800 which sought to fix the issues with their previous console. It was too little too late unfortunately, because the system tanked. By the end of the
+        1986, there were only 10 games for the console. <br> <br>
+        <a href="https://en.wikipedia.org/wiki/Atari_5200"target="_blank">Read more about 5600!</a>
+        <a href="https://en.wikipedia.org/wiki/Atari_7800"target="_blank">Read even more about 7800!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="lynxpeakinfo">
+      <h1>Atari Lynx</h1> <h2>Released in 1989 <br>3 million units sold</h2>
+      <p>The Atari Lynx marks when Atari would start naming their consoles after cats instead of numbers. It was first handheld console with a color LCD screen. Atari was trying to use superior technology to gain a better
+        foothold in the market, but without support from game developers, it took third place behind Nintendo and Sega.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Atari_Lynx"target="_blank">Read more about Lynx!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="thejaginfo">
+      <h1>Atari Jaguar</h1> <h2>Released in 1993 <br>under 250k units sold</h2>
+      <p>Atari would release one final console in the early 90's to try and regain their once dominant position in the gaming market. Their strategy was yet again to blow away the competition in hardware specifications.
+        The Atari Jaguar was the first ever 64-bit console, and was released to overhwlming negativity and criticism. Because of the complex nature of the processors added together to create the 64-bits the console boasted,
+         developers found it very difficult to make games on the console, and often games ended up looking no better than games on other &ldquo;inferior&rdquo; systems. The Jaguar struck out with a lackluster library of
+         games, and was plagued by technical issues. These failures drove Atari out of console development permanently.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Atari_Jaguar"target="_blank">Read more about Jaguar!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="nintopiainfo">
+      <h1>Nintendo Entertainment System <br>and Nintendo Gameboy</h1> <h2>NES released in 1985 <br>61 million units sold,<br><br>Gameboy released in 1989 <br>118 million units sold </h2>
+      <p>Known as the Famicom in Japan, Nintendo of America released the NES in 1985, and it completely turned the failing gaming market around, and back into a prosperous industry again.
+        One in four American households had a NES in the 1980's, and it's smash hit release title, Super Mario Bros. would redefine game design to come.
+        The Gameboy was released in 1989, and allowed players to bring their games with them wherever they went, as long as they had some batteries. The Gameboy and it's variants reigned supreme over any competing handheld
+        system, which Nintendo has continued to do with their handhelds.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_Entertainment_System"target="_blank">Read more about NES!</a>
+        <a href="https://en.wikipedia.org/wiki/Game_boy"target="_blank">Read even more about Gameboy!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="nintopolisinfo">
+      <h1>Super Nintendo Entertainment System</h1> <h2>Released in 1991 <br>49 million units sold</h2>
+      <p>Nintendo's successor to the popular NES, the SNES was released as a competitor to the Sega Genesis, which had tipped the balance of power Nintendo had on the industry for so long. The system
+        launched with Super Mario World, which was by far the best selling game for the console with 20 million copies sold worldwide.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System"target="_blank">Read more about SNES!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="blackwoodinfo">
+      <h1>Nintendo Virtual Boy and Tiger R-Zone</h1> <h2>Virtual Boy released in 1995 <br>770k units sold,<br><br>R-Zone released in 1995 <br>??? units sold</h2>
+      <p>Nintendo sought to bridge the gap between the SNES and the release of the N64. They were working on a virtual reality concept, and decided to push it forward. Originally dubbed VR32, the Virtual Boy was the first
+        virtual reality console, but failed miserably. The “portable” console could only render games in red and black, and were prone to giving users migraines within several minutes. It's essentially a pair of binoculaurs
+        on a stand, which as James Rolfe who portrays The Angry Video Game Nerd stated: &ldquo;That equates to a pair of eyeballs on legs.&rdquo; There were also only 22 games developed for the Virtual Boy, and was
+        discontinued before Nintendo could properly support the platform.
+        <br>Tiger Electronics was always trying to compete with Nintendo, especially with their inexpensive handheld games. After seeing the Virtual Boy displayed at conferences, Tiger developed their own version,
+        called the R–Zone. It had a headstrap, and used reflective plastic to display the typical &ldquo;digital watch graphics&rdquo; in red and black. The view for the player was situated only over the right eye, meaning player's
+        would have to strain their left eye to see the game properly. It also only had 21 games made for it, which makes it worse than the Virtual Boy in every aspect. Well, at least they added a head-strap.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Virtual_Boy"target="_blank">Read more about Virtual Boy!</a>
+        <a href="https://en.wikipedia.org/wiki/R-Zone"target="_blank">Read even more about R-Zone!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="magmacartinfo">
+      <h1>Nintendo 64</h1> <h2>Released in 1996 <br>32 million units sold</h2>
+      <p>Nintendo released the long anticipated Nintendo 64 with critical acclaim. It was praised for bringing cutting edge and realistic 3D graphics (at the time) to the living room. It's saving grace, the cartridge based games,
+        were also it's achilles heel. Cartridges were more expensive to produce than CDs at the time, could hold much less space, were prone to malfunctions, and didn't have the lastability of CDs.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_64"target="_blank">Read more about N64!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="porttendoinfo">
+      <h1>Nintendo Gameboy Advance</h1> <h2>Released in 2001 <br>81 million units sold</h2>
+      <p>Continuing their trend of dominating the portable console market, the Gameboy Advance (GBA) crushed all competition. Nintendo released a wireless adapter, which was a first in allowing players to trade or game together wirelessly.
+        There were several iterations of the Gameboy Advance, the Gameboy Advance SP, and the Gameboy Micro.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Game_Boy_Advance"target="_blank">Read more about GBA!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="thewallinfo">
+      <h1>Nintendo DS and 3DS</h1> <h2>DS released in 2004<br>3DS released in 2011 <br>154 million units sold</h2>
+      <p>The Nintendo DS's (Developer's System, or Dual Screen) two main attractions were the dual screens working in tandem to deliver a unique gaming experience, and the other being the option of wirelessly connecting to another
+        Nintendo DS wihtout an internet connection. In many ways, the DS gained Nintendo some much needed momentum in the industry, as they were beginning to lose their foothold as the most recognizable developer.
+        As former Nintendo president Hiroshi Yamauchi stated: &ldquo;If the DS succeeds, we will rise to heaven, but if it fails we will sink to hell.&rdquo;<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_DS"target="_blank">Read more about DS!</a>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_3DS"target="_blank">Read even more about 3DS!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="thecubeinfo">
+      <h1>Nintendo Gamecube</h1> <h2>Released in 2001 <br>21 million units sold</h2>
+      <p>The Gamecube was Nintendo's first home console which lost it's footing in the primary market, falling behind the other competing consoles. Like most console's of it's time, it used CDs, but the Gamecube used specially
+        encoded mini DVD's. The Gamecude was also capable of stereoscopic 3D, but was never utilized by game developers.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/GameCube"target="_blank">Read more about Gamecube!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="mtwiiinfo">
+      <h1>Nintendo Wii</h1> <h2>Released in 2006 <br>101 million units sold</h2>
+      <p>The Wii is Nintendo's best selling home console, and was known as Revolution during development. It primarily did not use a standard controller, instead it used a motion sensor, and an apparatus known as the WiiMote, and the
+        Nunchuck which would connect to the WiiMote. The two lower case i's are intended to resemble two people standing side-by-side, which represents gamers coming together, and to represent the Wii Remote and Nunchuk.
+        There was an online service for the Wii, known as the Nintendo Wi-Fi Connection. The servers were shut down in 2014.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Wii"target="_blank">Read more about Wii!</a>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_Wi-Fi_Connection"target="_blank">Read even more about Nintendo Wi&ndash;Fi!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="wiiuinfo">
+      <h1>Nintendo WiiU</h1> <h2>Released in 2012 <br>13 million units sold</h2>
+      <p>The WiiU was developed in order to address some of the critiques of the Wii, specifically that the Wii was targeted towards a more casual audience, lacked high definiton support, and a proper online gaming infastructure.
+        Nintendo was able to deliver on the high definition visuals and online gaming, but failed to push the console's specifications past the rising competition.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Wii_U"target="_blank">Read more about Wii U!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="hybridhaveninfo">
+      <h1>Nintendo Switch</h1> <h2>Released in 2017 <br>+500k units sold as of Mid-March 2017</h2>
+      <p>Your journey ends here at the most recently released console, the Nintendo Switch. The Switch is the first ever hybrid console, described as: &ldquo;a home console you can take on the go.&rdquo; Even though it is portable, it is not a successor nor replacement for the 3DS system.
+        Switch games are stored on a very small cartridge, and each cartridge is coated in a non-toxic bitterant to deter children from eating them.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_Switch"target="_blank">Read more about Switch!</a>
+        <a href="https://en.wikipedia.org/wiki/Nintendo_Network"target="_blank">Read more about Nintendo Network!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="republicofphilinfo">
+      <h1>Philips CD-i</h1> <h2>Released in 1991 <br>1 million units sold</h2>
+      <p>Nintendo, feeling pressured to create a game console whihc utilized CDs, originally met with Sony to create a CD based add-on for the SNES. Nintendo was also secretly metting with Philips, Sony's biggest competitor
+        at the time, to also create a CD based console with licenses to Nintendo game franchises. Sony went on to create the Playstation without Nintendo, and Nintendo stuck with Philips, which released a faulty, cumbersome console.
+        The four Nintendo games made for the CD-i are not officially acknowledged by Nintendo because they're so horrendous. One of the controllers also looked like a bulky spoon, so there's nothing redeeming about this thing.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Philips_CD-i"target="_blank">Read more about CD-i!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="segacityinfo">
+      <h1>Sega Master System and Sega Genesis</h1> <h2>Master System released in 1986 <br>16 million units sold,<br>Genesis released in 1989 <br>35 million units sold</h2>
+      <p>Sega would emerge with the Master System in late 1985, as a direct competitor to Nintendo. However, Sega struggled to gain a foothold in the market which was dominantly owned by Nintendo (80%) and Atari (12%) at the time.
+        Sega would later find success in the market with the release of their bold, 16-bit console Genesis.
+        <br>The Genesis really highlighted the competition between Sega and Nintendo, with it's edgy and hip marketing. The console's slogan proudly boasted: &ldquo;Genesis does what Nintendon't!&rdquo; Sega found success due their
+        advanced hardware and &ldquo;blast processing&rdquo; which allowed for faster-paced gameplay, improved sound and music quality, and better graphics. Sonic the Hedgehog would become Sega's mascot when the title was released in 1991.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Master_System"target="_blank">Read more about Master System!</a>
+        <a href="https://en.wikipedia.org/wiki/Sega_Genesis"target="_blank">Read even more about Genesis!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="saturnaliainfo">
+      <h1>Sega Saturn</h1> <h2>Released in 1995 <br>9 million units sold</h2>
+      <p>Even though the Sega Saturn sold quite well, it failed to penetrate the market in America, and is considered a commerical failure. This is attributed to several factors, the most note-worthy being Sega was not able to release a
+        Sonic title for the console. Sonic Xtreme was to be the first 3D Sonic game, but it was cancelled during development.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Sega_Saturn"target="_blank">Read more about Sega Saturn!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="capecastinfo">
+      <h1>Sega Dreamcast</h1> <h2>Released in 1999 <br>9 million units sold</h2>
+      <p>Sega's final contender in the console market was the Dreamcast. The name comes from combining the words &ldquo;dream&rdquo; and &ldquo;broadcast.&rdquo; The Dreamcast's fatal flaw is how progressive it was. The Dreamcast's hardware was far
+         ahead of it's time, and sold poorly only due to the anticipation of the PS2. It was the first home console to include online play out of the box, as long as you had a dial-up connection. The SegaNet, the main platform for online
+         gaming and downloads for the Dreamcast, laid the foundations for online console gaming hitting the mainstream in the mid 2000's. The Dreamcast has a devout cult following, and like the Neo Geo, has a commercial and personal bootlegging community.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Dreamcast"target="_blank">Read more about Dreamcast!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="ggislandinfo">
+      <h1>Sega Game Gear</h1> <h2>Released in 1991 <br>10 million units sold</h2>
+      <p>Sega released their first handheld console which shared it's own library of games with the Master System. Sega also continued their trend of marketing their systems as the &ldquo;cool&rdquo; console to have compared Nintendo products.
+        However, Nintendo's strict third party licensing agreements would prove more significant than marketing strategies, as their was a small and lackluster library of games made the Game gear specifically.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Game_Gear"target="_blank">Read more about Game Gear!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="nomadislandinfo">
+      <h1>Sega Genesis Nomad</h1> <h2>Released in 1995 <br>??? units sold</h2>
+      <p>Sega originally intended to ship the Nomad with a touchscreen, but it was far too expensive. The handheld was already costly, running nearly $180. The console failed, and faded away due to poor release timing, and lack of innovation.
+        It simply played Genesis games, and was not compatable with any of the Genesis add-ons, like the Sega CD and 32X.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Genesis_Nomad"target="_blank">Read more about Genesis Nomad!</a>
+        <a href="https://en.wikipedia.org/wiki/Sega_CD"target="_blank">Read even more about SeagCD!</a>
+        <a href="https://en.wikipedia.org/wiki/32X"target="_blank">Wow, even more about Sega 32X!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="sonystationinfo">
+      <h1>Sony Playstation 1</h1> <h2>Released in 1995 <br>102 million units sold</h2>
+      <p>After being publically embarassed and betrayed by Nintendo, Sony decided to keep their CD based prototype dubbed the &ldquo;Play Station.&rdquo; The Playstation (PS1) was released and quickly became the best selling console of the mid 90's.
+        The Playstation was also capable of playing audio CDs, and popularized the use of memory cards.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/PlayStation"target="_blank">Read more about PS1!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="themonolithinfo">
+      <h1>Sony Playstation 2</h1> <h2>Released in 2000 <br>155 million units sold</h2>
+      <p>Sony's Playstation 2 (PS2) is the best selling console of all time, and has over 1.5 billion games sold. It has a daunting lead by over 50 million units. The PS2 set a nearly unbeatable precedant for future gaming consoles,
+        not in terms of power but in terms of features and functionality. The PS2 was the first console to support DVDs, meaning you could watch movies on it as well. The console continued to be popular well into the 2010's,
+        and were still being manufactured 13 years after it's initial launch, and games were still be made for it until 2014.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/PlayStation_2"target="_blank">Read more about PS2!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="sonycityinfo">
+      <h1>Sony Playstation 3, Playstation Portable,<br> and Playstation Network</h1> <h2>The PS3 released in 2006 <br>85 million units sold<br><br>The PSP released in 2004 <br>82 million units sold<br><br>PSN has 65 million active users as of 2016</h2>
+      <p>The Playstation 3 (PS3) was the first console to use Blu-ray discs. The console had a slow start in the market, but recovered with the release of it's following iterations, the PS3 Slim and PS3 Super Slim.
+        The Playstation 3 also offered access to the Playstation Network, Sony's online gaming and distribution service, similar to Xbox LIVE.
+        The Playstation Portable (PSP) was Sony's first handheld console, and aimed to stop Nintendo from dominating the portable gaming market, which it did for a short time. The PSP is the only handheld console to use discs,
+        whereas most others use cartridges.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/PlayStation_3"target="_blank">Read more about PS3!</a>
+        <a href="https://en.wikipedia.org/wiki/PlayStation_Portable"target="_blank">Read even more about PSP!</a>
+        <a href="https://en.wikipedia.org/wiki/PlayStation_Network"target="_blank">Wow, even more about PSN!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="vitaislandinfo">
+      <h1>Playstation Vita</h1> <h2>Released in 2011<br>4 million units sold</h2>
+      <p>The Playstation Vita is the successor the Playstation Portable, featuring a sleaker design, better graphics, and online connectivity. The Vita switched from using discs to using game cards. While the Vita
+        had a strong start on sales, sales stalled in the Western market. This is likely due to it's high cost compared to the ever popular DS and 3DS handheld consoles. in October of 2015, Sony had stopped producing
+        games for the console, as they were fighting a losing battle between gaming on mobile phones, tablets, and Nintendo.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/PlayStation_Vita"target="_blank">Read more about PSVita!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="bluvaleinfo">
+      <h1>Sony Playstation 4</h1> <h2>Released in 2013 <br>53 million units sold as of January 2017</h2>
+      <p>Sony bottled up so much lightning leading up to the release of the PS4. The PS4 innovates features and functionality, a lot of features involing social media. With a quick and easy button press on the controller,
+        a user can record their gameplay, or take a screenshot and upload to social media. Sony also has a very strong emphasis on their exlcusive game franchises, and indie game development.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/PlayStation_4"target="_blank">Read more about PS4</a>
+      </p>
+    </div>
+    <div class="lightbox" id="dukeravineinfo">
+      <h1>Microsoft Xbox</h1> <h2>Released in 2001 <br>24 million units sold</h2>
+      <p>Microsoft's first console was built to directly compete with the Playstation, as Sony was drawing influence and customers from the Windows platform. The console uses DirectX graphics technology, which is where the console gets it's
+         name. The console was unvieled in January of 2001 by Bill Gates and Dwayne the Rock Johnson, where they showed off the hit game Halo: Combat Evolved. Microsoft released Xbox LIVE in 2004, a service where players could
+         use their internet connections to play games together.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Xbox"target="_blank">Read more about Xbox!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="circusprimeinfo">
+      <h1>Xbox 360 and Xbox LIVE</h1> <h2>Released in 2005 <br>84 million units sold<br>Xbox LIVE has 55 million active users as of 2016</h2>
+      <p>There were several versions of Xbox 360 throughout the years of it's production. The earliest models were plagued with various hardware problems, a phenomenon as the &ldquo;Red Ring of Death.&rdquo; Despite malfunctions and other blunders,
+         it quickly became a very successful and influential console. The console popularized online gaming, digital game distribution, and game achievement goals via Xbox LIVE.
+        Xbox LIVE became the interface in which Microsoft allowed access to their online marketplace, game matchmaking, music and video streaming services, voice and video chat, and Game Room,
+        a platform where users could download retro Arcade and Atari games.<br> <br>
+        <a href="https://en.wikipedia.org/wiki/Xbox_360"target="_blank">Read more about Xbox360!</a>
+        <a href="https://en.wikipedia.org/wiki/Xbox_LIVE"target="_blank">Read even more about Xbox LIVE!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="templeofoneinfo">
+      <h1>Xbox One</h1> <h2>Released in 2013 <br>26 million units sold by December 2016</h2>
+      <p>Microsoft unveiled their original plans for the Xbox One, and were met with an overwhelming amount of negative criticism. So much so they had to rework many aspects of the console before shipping the final product to consumers.
+        The Xbox One gets it's name from it's concept of being an all-in-one device. You can stream your cable service through, access the internet, play games, listen to music and watch movies. It is also backwards compatible with
+        Xbox 360 titles, which runs the games through an emulation process. Video game modifications, which are assets or aspects of a game which are changed or added by an unofficial source, were previously only easily available on PC,
+        but Fallout 4 on the Xbox One is the first game to allow the use of player-created mods on a home console. <br> <br>
+        <a href="https://en.wikipedia.org/wiki/Xbox_One"target="_blank">Read more about Xbox One!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="introduction">
+      <h1>Welcome to Hub World!</h1>
+      <p>A Hub World is described as the zone in video games where one can choose sets of levels, individual levels and challenges. This map serves as a Hub World, cataloging almost every video game console released in North America.
+        Video gaming has become such an important and prevalent phenomenon around the world, and is rapidly progressing forward gathering the attention of more and more people. It's so easy to get caught up with the latest and
+        greatest in technology, we forget the relics left behind and their impact on our culture. This is especially true in the world of video gaming.
+        <br> This map serves an ode to the rich history of video game consoles in North America. So tread onward dauntlessly, and discover what Hub World has to offer!<br> <br>
+        <a href="#" data-featherlight="#instructions">Instructions!</a>
+        <a href="https://www.youtube.com/watch?v=BjhVRZPAMnw"target="_blank">The Making of Hub World!</a>
+      </p>
+    </div>
+    <div class="lightbox" id="instructions">
+      <h1>Instructions</h1>
+      <br> <br><h2>Movement</h2>
+      <p>To move with a mouse, simply click and drag the cursor to scroll around the map. Points of interest will glow, and the zone's name will show up on the band on the bottom of the screen when the cursor is hovering over them.
+        Click on a glowing point of interest to bring up more information. To exit the information sheet, simply click on the &ldquo;x&rdquo; in the top right corner of the sheet, or anywhere outside of the sheet.</p>
+        <br><h2>Zooming In and Out</h2>
+        <p>There are a few Zoom magnification options in the Options menu. Click on one of the options to enable it, click the same option again to disable it. <br>(NOTE: You must disable one zoom before enabling another!)</p>
+    </div>
+
+   </div>
+   </main>
+</body>
+</html>
