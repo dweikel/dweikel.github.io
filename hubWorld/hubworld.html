@@ -11,20 +11,29 @@
         $(this).toggleClass('collapse');
         });
 
-        $('li.action ul.right li a.eightyfive').click(function() {
-           $('.dummy').toggleClass('zoom85');
-           $('.zoom85notify').toggle();
-        });
-         $('li.action ul.right li a.fifty').click(function() {
-           $('.dummy').toggleClass('zoom50');
-           $('.zoom50notify').toggle();
+         $('li.action ul.right li a.eightyfive').live("click", function() {
+           $('.dummy').toggleClass('zoom85').removeClass('zoom50').removeClass('zoom115');
+            $('.zoom85notify').toggle();
+            $(".zoom50notify").hide();
+            $(".zoom115notify").hide();
          });
-         $('li.action ul.right li a.onefifteen').click(function() {
-           $('.dummy').toggleClass('zoom115');
+         $('li.action ul.right li a.fifty').live("click", function() {
+           $('.dummy').toggleClass('zoom50').removeClass('zoom115').removeClass('zoom85');
+           $('.zoom50notify').toggle();
+           $(".zoom85notify").hide();
+           $(".zoom115notify").hide();
+         });
+         $('li.action ul.right li a.onefifteen').live("click", function() {
+           $('.dummy').toggleClass('zoom115').removeClass('zoom50').removeClass('zoom85');
            $('.zoom115notify').toggle();
+           $(".zoom50notify").hide();
+           $(".zoom85notify").hide();
          });
             // Point of Interest Mouseover/out Functions
           $(document).ready(function() {
+            $(".welcome").click(function(){
+                $(".welcome").slideUp("slow");
+            });
           $('.brownbox').mouseover(function() {
                   $('.brownboxname').show();
                 });
@@ -316,6 +325,7 @@
 
 <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Kotta+One" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
 
     <style>
         html, body {
@@ -325,6 +335,7 @@
             min-width: 100%;
             box-sizing: border-box;
             font-size: 16px;
+            font-family: "Kotta One", serif;
         }
         main {
             position: relative;
@@ -332,13 +343,79 @@
             height: 100%;
             overflow: scroll; cursor: grab; cursor : -o-grab; cursor : -moz-grab; cursor : -webkit-grab;
         }
+        @keyframes blinker {
+          50% { opacity: 0; }
+        }
+        .welcome {
+            position: fixed;
+            z-index: 5;
+            height: 100vh;
+            width: 100vw;
+            background-color: #ccb699;
+            text-align: center;
+        }
+        .welcome > h1 {
+            position: relative;
+            top: 14vh;
+            text-align: center;
+            font-size: 100px;
+        }
+        .welcome > h2 {
+            position: relative;
+            top: 20vh;
+            text-align: center;
+            font-size: 21px;
+        }
+        .welcome > h5 {
+            position: relative;
+            bottom: -55vh;
+            text-align: center;
+            font-size: 21px;
+            animation: blinker 1s linear infinite;
+        }
+        .welcome > img {
+           width: 20vw;
+           height: 30vh;
+        }
+        .weltopleft {
+           position: fixed;
+           left: 0px;
+        }
+        .weltopright {
+           position: fixed;
+           right: 0px;
+           -moz-transform: scale(-1, 1);
+           -webkit-transform: scale(-1, 1);
+           -o-transform: scale(-1, 1);
+           -ms-transform: scale(-1, 1);
+           transform: scale(-1, 1);
+        }
+        .welbotleft {
+           position: fixed;
+           left: 0px;
+           bottom: 0px;
+           -moz-transform: scale(1, -1);
+           -webkit-transform: scale(1, -1);
+           -o-transform: scale(1, -1);
+           -ms-transform: scale(1, -1);
+           transform: scale(1, -1);
+        }
+        .welbotright {
+           position: fixed;
+           right: 0px;
+           bottom: 0px;
+           -moz-transform: scale(-1, -1);
+           -webkit-transform: scale(-1, -1);
+           -o-transform: scale(-1, -1);
+           -ms-transform: scale(-1, -1);
+           transform: scale(-1, -1);
+        }
         .dummy {
             transform-origin: left top;
-            transition: all 0.5s ease;
+            transition: all 0.75s ease;
         }
         .zoom115 {
             transform :scale(1.15);
-            transform-origin: left top;
         }
         .zoom115notify {
            display:none;
@@ -352,7 +429,6 @@
         }
         .zoom85 {
             transform :scale(.85);
-            transform-origin: left top;
         }
         .zoom85notify {
            display:none;
@@ -366,7 +442,6 @@
         }
         .zoom50 {
             transform :scale(.5);
-            transform-origin: left top;
         }
         .zoom50notify {
            display:none;
@@ -425,7 +500,7 @@
             border-style:solid;
             border-width: thick;
             border-color: #66462c;
-            padding: 10px;
+            padding: 15px;
             opacity: 0;
         }
         header > ul > li > ul > li {
@@ -444,14 +519,16 @@
             opacity: 1;
         }
         h1, h2, li {
-            font-family: "Kotta One", serif;
             color: #66462c;
         }
         h1 {
-          font-size: 20pt;
+          font-family: "Press Start 2P", serif;
+          font-size: 16pt;
+          line-height: 30px;
         }
         h2 {
           font-size: 16pt;
+          font-family: "Kotta One", serif;
         }
         h3 {
           text-align: center;
@@ -464,6 +541,10 @@
           font-family: "Kotta One", serif;
           font-size: 15pt;
           color: #ffffff;
+        }
+        h5 {
+          font-family: "Press Start 2P", serif;
+          font-size: 16pt;
         }
         li {
           font-size: 20pt;
@@ -1443,7 +1524,7 @@
       </div>
 
     <ul>
-            <li class="action">Legend
+            <li class="action"><h5>Legend</h5>
               <!-- Legend href list -->
                 <ul class="reaction">
                     <li><a href="#" data-featherlight="#brownboxinfo">The Brown Box</a></li>
@@ -1494,17 +1575,23 @@
                     <li>&nbsp;</li>
                     <li>&nbsp;</li>
                     <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
                 </ul>
             </li>
-             <li class="action">Options
+             <li class="action"><h5>Options</h5>
                <!-- Zoom & Options -->
                 <ul class="reaction right">
                   <li><a href="#" class="onefifteen">Zoom In 115%</a></li>
                   <li><a href="#" class="eightyfive">Zoom Out 85%</a></li>
                   <li><a href="#" class="fifty">Zoom Out 50%</a></li>
                   <li><a href="#" data-featherlight="#instructions">Instructions</a><li>
-                  <li><a href="#" data-featherlight="#introduction">Introduction</a></li>
-
+                  <li><a href="#" data-featherlight="#about">About</a></li>
+                  <li><a href="#" data-featherlight="#update">Update</a></li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
                 </ul>
             </li>
        </ul>
@@ -1683,7 +1770,7 @@
       </p>
     </div>
     <div class="lightbox" id="portplasticainfo">
-      <h1>Tiger Electronic Handheld Games</h1> <h2>Released throughout the '90s</h2>
+      <h1>Tiger Electronic <br> Handheld Games</h1> <h2>Released throughout the '90s</h2>
       <p>Tiger Electronics was a subsidary business of Hasbro, and was responsible for flooding the market with cheap, plastic handheld games.
         Trying to capitalize off the success of the Gameboy, Tiger released individual games in their custom casing. Each Tiger game was it's
         own game, there was no need for cartridges. However, these games were produced inexpensively, and it really shows. the graphics are all
@@ -1725,7 +1812,7 @@
       </p>
     </div>
     <div class="lightbox" id="warshawdesertinfo">
-      <h1>The Video Game Market Crash</h1> <h2>Released in 1983</h2>
+      <h1>The Video Game<br> Market Crash</h1> <h2>Released in 1983</h2>
       <p>After the console market was flooded with numerous Pong consoles and Atari 2600 copycats, and inferior quality games such as Pac-Man and the infamous E.T. (which was single handedly developed by Howard Scott Warshaw
          in only five weeks, talk about pressure!) for the 2600, the video game market took a massive hit. The entire industry dropped by nearly 97% and dissolved Atari into several companies, which were sold to the highest
          bidders. Atari buried a large amount of defunct consoles and game cartridges in the Alamogordo Desert, dubbed as the Atari Landfill.<br> <br>
@@ -1777,7 +1864,7 @@
       </p>
     </div>
     <div class="lightbox" id="blackwoodinfo">
-      <h1>Nintendo Virtual Boy and Tiger R-Zone</h1> <h2>Virtual Boy released in 1995 <br>770k units sold,<br><br>R-Zone released in 1995 <br>??? units sold</h2>
+      <h1>Nintendo Virtual Boy <br> and Tiger R-Zone</h1> <h2>Virtual Boy released in 1995 <br>770k units sold,<br><br>R-Zone released in 1995 <br>??? units sold</h2>
       <p>Nintendo sought to bridge the gap between the SNES and the release of the N64. They were working on a virtual reality concept, and decided to push it forward. Originally dubbed VR32, the Virtual Boy was the first
         virtual reality console, but failed miserably. The “portable” console could only render games in red and black, and were prone to giving users migraines within several minutes. It's essentially a pair of binoculaurs
         on a stand, which as James Rolfe who portrays The Angry Video Game Nerd stated: &ldquo;That equates to a pair of eyeballs on legs.&rdquo; There were also only 22 games developed for the Virtual Boy, and was
@@ -1852,7 +1939,7 @@
       </p>
     </div>
     <div class="lightbox" id="segacityinfo">
-      <h1>Sega Master System and Sega Genesis</h1> <h2>Master System released in 1986 <br>16 million units sold,<br>Genesis released in 1989 <br>35 million units sold</h2>
+      <h1>Sega Master System <br>and Sega Genesis</h1> <h2>Master System released in 1986 <br>16 million units sold,<br>Genesis released in 1989 <br>35 million units sold</h2>
       <p>Sega would emerge with the Master System in late 1985, as a direct competitor to Nintendo. However, Sega struggled to gain a foothold in the market which was dominantly owned by Nintendo (80%) and Atari (12%) at the time.
         Sega would later find success in the market with the release of their bold, 16-bit console Genesis.
         <br>The Genesis really highlighted the competition between Sega and Nintendo, with it's edgy and hip marketing. The console's slogan proudly boasted: &ldquo;Genesis does what Nintendon't!&rdquo; Sega found success due their
@@ -1960,26 +2047,52 @@
         <a href="https://en.wikipedia.org/wiki/Xbox_One"target="_blank">Read more about Xbox One!</a>
       </p>
     </div>
-    <div class="lightbox" id="introduction">
-      <h1>Welcome to Hub World!</h1>
+    <div class="lightbox" id="about">
+      <h1>About Hub World!</h1>
       <p>A Hub World is described as the zone in video games where one can choose sets of levels, individual levels and challenges. This map serves as a Hub World, cataloging almost every video game console released in North America.
         Video gaming has become such an important and prevalent phenomenon around the world, and is rapidly progressing forward gathering the attention of more and more people. It's so easy to get caught up with the latest and
         greatest in technology, we forget the relics left behind and their impact on our culture. This is especially true in the world of video gaming.
         <br> This map serves an ode to the rich history of video game consoles in North America. So tread onward dauntlessly, and discover what Hub World has to offer!<br> <br>
         <a href="#" data-featherlight="#instructions">Instructions!</a>
-        <a href="https://www.youtube.com/watch?v=BjhVRZPAMnw"target="_blank">The Making of Hub World!</a>
+        <a href="https://www.youtube.com/watch?v=BjhVRZPAMnw&list=PL3qI52dr_PH5tMa5xmrgzJANCcsX3PQOr"target="_blank">The Making of Hub World!</a>
+        <a href="http://danteweikel.weebly.com/about.html"target="_blank">About the Author!</a>
       </p>
     </div>
     <div class="lightbox" id="instructions">
       <h1>Instructions</h1>
-      <br> <br><h2>Movement</h2>
+      <br><h2>Movement</h2>
       <p>To move with a mouse, simply click and drag the cursor to scroll around the map. Points of interest will glow, and the zone's name will show up on the band on the bottom of the screen when the cursor is hovering over them.
         Click on a glowing point of interest to bring up more information. To exit the information sheet, simply click on the &ldquo;x&rdquo; in the top right corner of the sheet, or anywhere outside of the sheet.</p>
         <br><h2>Zooming In and Out</h2>
-        <p>There are a few Zoom magnification options in the Options menu. Click on one of the options to enable it, click the same option again to disable it. <br>(NOTE: You must disable one zoom before enabling another!)</p>
+        <p>Under the options tab, you will find a few zoom functions. Click on one to enable it, click it again to disable it. If a zoom is activated and you click on a different zoom function, it will disable the previous zoom and replace it
+        with the newly selected function.</p>
+    </div>
+    <div class="lightbox" id="update">
+      <h1>Update</h1>
+      <h2>Version 1.05, 4/6/17</h2>
+        <br><h2>Additions, Changes, and Fixes</h2>
+        <p>- Fixed Zoom options to enable and disable properly when selecting a different zoom function. <br>
+          - Fixed Zoom notifications to toggle properly.<br>
+          - Changed Introduction page to About. <br>
+          - Added personal website link to About page. <br>
+          - Added the Welcome landing page. <br>
+          - Added new font "Press Start 2P" to headers. <br><br> </p>
+        <h2>Planned Additions</h2> <p>
+        - Colecovision and Intellivision consoles. <br>
+        - Console Wars (Sega and Nintendo) </p>
+
     </div>
 
    </div>
+ <div class="welcome">
+    <img src="corners.png" class="weltopleft">
+    <img src="corners.png" class="weltopright">
+    <img src="corners.png" class="welbotleft">
+    <img src="corners.png" class="welbotright">
+    <h2>Welcome to</h2><br>
+    <h1>HUB WORLD</h1>
+    <h5>CLICK ANYWHERE TO BEGIN</h5>
+
    </main>
 </body>
 </html>
