@@ -1,0 +1,647 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "cpxf-kxp3",
+      "name" : "Monuments",
+      "attribution" : "City of Baltimore",
+      "attributionLink" : "http://www.baltimorecity.gov",
+      "averageRating" : 0,
+      "category" : "Culture & Arts",
+      "createdAt" : 1323887241,
+      "description" : "This data set shows the point location of Baltimore City monuments. However, the completness and currentness of these data are uncertain.",
+      "displayType" : "table",
+      "downloadCount" : 954,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1486060619,
+      "licenseId" : "CC_30_BY",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 7693242,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1396568635,
+      "publicationGroup" : 260342,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1396568631,
+      "rowsUpdatedBy" : "6r9a-dfdj",
+      "tableId" : 1533947,
+      "totalTimesRated" : 0,
+      "viewCount" : 1000,
+      "viewLastModified" : 1486356369,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 141279057,
+        "name" : "name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1786633,
+        "width" : 267,
+        "cachedContents" : {
+          "non_null" : 84,
+          "largest" : "World War One Relief",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Korean War Memorial",
+            "count" : 20
+          }, {
+            "item" : "War Memorial Plaza",
+            "count" : 19
+          }, {
+            "item" : "Columbus Obelisk",
+            "count" : 18
+          }, {
+            "item" : "Mothers Garden",
+            "count" : 17
+          }, {
+            "item" : "Memorial Stadium",
+            "count" : 16
+          }, {
+            "item" : "Serviceman's Memorial",
+            "count" : 15
+          }, {
+            "item" : "Saint-Lo Drive Memorial",
+            "count" : 14
+          }, {
+            "item" : "Fell Family Memorial",
+            "count" : 13
+          }, {
+            "item" : "Rogers Bastion",
+            "count" : 12
+          }, {
+            "item" : "Veterans of Foreign Wars Monument",
+            "count" : 11
+          }, {
+            "item" : "Flagstaff",
+            "count" : 10
+          }, {
+            "item" : "Garrett Park Monument",
+            "count" : 9
+          }, {
+            "item" : "Babe Ruth",
+            "count" : 8
+          }, {
+            "item" : "Indian on the Trail",
+            "count" : 7
+          }, {
+            "item" : "Katyn Memorial",
+            "count" : 6
+          }, {
+            "item" : "The Washington Monument",
+            "count" : 5
+          }, {
+            "item" : "Sea Urchin",
+            "count" : 4
+          }, {
+            "item" : "Lafayette Monument",
+            "count" : 3
+          }, {
+            "item" : "John Eager Howard Monument",
+            "count" : 2
+          }, {
+            "item" : "Severn Teackle Wallis",
+            "count" : 1
+          } ],
+          "smallest" : "Babe Ruth"
+        },
+        "format" : { }
+      }, {
+        "id" : 141279058,
+        "name" : "zipCode",
+        "dataTypeName" : "text",
+        "fieldName" : "zipcode",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1786635,
+        "width" : 72,
+        "cachedContents" : {
+          "non_null" : 84,
+          "largest" : "21251",
+          "null" : 0,
+          "top" : [ {
+            "item" : "21201",
+            "count" : 20
+          }, {
+            "item" : "21202",
+            "count" : 19
+          }, {
+            "item" : "21211",
+            "count" : 18
+          }, {
+            "item" : "21213",
+            "count" : 17
+          }, {
+            "item" : "21217",
+            "count" : 16
+          }, {
+            "item" : "21218",
+            "count" : 15
+          }, {
+            "item" : "21224",
+            "count" : 14
+          }, {
+            "item" : "21230",
+            "count" : 13
+          }, {
+            "item" : "21231",
+            "count" : 12
+          }, {
+            "item" : "21214",
+            "count" : 11
+          }, {
+            "item" : "21223",
+            "count" : 10
+          }, {
+            "item" : "21225",
+            "count" : 9
+          }, {
+            "item" : "21251",
+            "count" : 8
+          } ],
+          "smallest" : "21201"
+        },
+        "format" : { }
+      }, {
+        "id" : 141279059,
+        "name" : "neighborhood",
+        "dataTypeName" : "text",
+        "fieldName" : "neighborhood",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1786637,
+        "width" : 234,
+        "cachedContents" : {
+          "non_null" : 84,
+          "largest" : "Washington Hill",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Downtown",
+            "count" : 20
+          }, {
+            "item" : "Remington",
+            "count" : 19
+          }, {
+            "item" : "Clifton Park",
+            "count" : 18
+          }, {
+            "item" : "Johns Hopkins Homewood",
+            "count" : 17
+          }, {
+            "item" : "Mid-Town Belvedere",
+            "count" : 16
+          }, {
+            "item" : "Madison Park",
+            "count" : 15
+          }, {
+            "item" : "Upton",
+            "count" : 14
+          }, {
+            "item" : "Reservoir Hill",
+            "count" : 13
+          }, {
+            "item" : "Harlem Park",
+            "count" : 12
+          }, {
+            "item" : "Coldstream Homestead Montebello",
+            "count" : 11
+          }, {
+            "item" : "Guilford",
+            "count" : 10
+          }, {
+            "item" : "McElderry Park",
+            "count" : 9
+          }, {
+            "item" : "Patterson Park",
+            "count" : 8
+          }, {
+            "item" : "Canton",
+            "count" : 7
+          }, {
+            "item" : "Middle Branch/Reedbird Parks",
+            "count" : 6
+          }, {
+            "item" : "Locust Point Industrial Area",
+            "count" : 5
+          }, {
+            "item" : "Federal Hill",
+            "count" : 4
+          }, {
+            "item" : "Washington Hill",
+            "count" : 3
+          }, {
+            "item" : "Inner Harbor",
+            "count" : 2
+          }, {
+            "item" : "Herring Run Park",
+            "count" : 1
+          } ],
+          "smallest" : "Brooklyn"
+        },
+        "format" : { }
+      }, {
+        "id" : 141279060,
+        "name" : "councilDistrict",
+        "dataTypeName" : "number",
+        "fieldName" : "councildistrict",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1786639,
+        "width" : 113,
+        "cachedContents" : {
+          "non_null" : 84,
+          "average" : "9.952380952380952",
+          "largest" : "14",
+          "null" : 0,
+          "top" : [ {
+            "item" : "11",
+            "count" : 20
+          }, {
+            "item" : "7",
+            "count" : 19
+          }, {
+            "item" : "14",
+            "count" : 18
+          }, {
+            "item" : "13",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "10",
+            "count" : 15
+          }, {
+            "item" : "3",
+            "count" : 14
+          }, {
+            "item" : "2",
+            "count" : 13
+          }, {
+            "item" : "9",
+            "count" : 12
+          }, {
+            "item" : "12",
+            "count" : 11
+          } ],
+          "smallest" : "1",
+          "sum" : "836"
+        },
+        "format" : { }
+      }, {
+        "id" : 141279061,
+        "name" : "policeDistrict",
+        "dataTypeName" : "text",
+        "fieldName" : "policedistrict",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1786641,
+        "width" : 157,
+        "cachedContents" : {
+          "non_null" : 84,
+          "largest" : "WESTERN",
+          "null" : 0,
+          "top" : [ {
+            "item" : "CENTRAL",
+            "count" : 20
+          }, {
+            "item" : "NORTHERN",
+            "count" : 19
+          }, {
+            "item" : "NORTHEASTERN",
+            "count" : 18
+          }, {
+            "item" : "WESTERN",
+            "count" : 17
+          }, {
+            "item" : "SOUTHEASTERN",
+            "count" : 16
+          }, {
+            "item" : "SOUTHERN",
+            "count" : 15
+          }, {
+            "item" : "EASTERN",
+            "count" : 14
+          } ],
+          "smallest" : "CENTRAL"
+        },
+        "format" : { }
+      }, {
+        "id" : 141279062,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 6,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1786643,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 58,
+          "largest" : {
+            "human_address" : "{\"address\":\"790 ALICEANNA ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+          },
+          "null" : 26,
+          "top" : [ {
+            "item" : {
+              "human_address" : "{\"address\":\"408 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"100 HOLLIDAY ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"50 MARKET PL\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"100 CALVERT ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"101 GAY ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"3100 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"2801 SAINT LO DR\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"1420 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"1400 PENNSYLVANIA AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"1211 PENNSYLVANIA AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"1500 EDMONDSON AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"3201 HILLEN ROAD\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"2 UNIVERSITY PKWY\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"100 LINWOOD AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"1021 LINWOOD AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"2825 HANOVER ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"1401 CONSTELLATION PLZA\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"300 WARREN AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"300 PRESIDENT ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "human_address" : "{\"address\":\"100 CALVERT ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 3.0 Unported",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/3.0/legalcode"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Publishing Entity" : {
+            "Department" : "Office of the Mayor"
+          }
+        }
+      },
+      "owner" : {
+        "id" : "6r9a-dfdj",
+        "displayName" : "Open Baltimore",
+        "roleName" : "administrator",
+        "screenName" : "Open Baltimore",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "6r9a-dfdj",
+        "displayName" : "Open Baltimore",
+        "roleName" : "administrator",
+        "screenName" : "Open Baltimore",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "monument" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "55380F84-F1FF-4112-A74A-1CD4BBAE1ECF", 1, 1323858458, "393202", 1323858458, "393202", "{\n}", "James Cardinal Gibbons", "21201", "Downtown", "11", "CENTRAL", [ "{\"address\":\"408 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 2, "6CFFD782-F896-4730-A05D-8AADF6468B10", 2, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "The Battle Monument", "21202", "Downtown", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 3, "1170EB26-2353-4EDA-9F56-B6CABF421F86", 3, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Negro Heroes of the U.S Monument", "21202", "Downtown", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 4, "9BF25732-A50D-402F-B84B-D086F18E3B0D", 4, 1323858458, "393202", 1323858458, "393202", "{\n}", "Star Bangled Banner", "21202", "Downtown", "11", "CENTRAL", [ "{\"address\":\"100 HOLLIDAY ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 5, "6991F400-2EB9-4C65-B76D-903B43D57EA9", 5, 1323858458, "393202", 1323858458, "393202", "{\n}", "Flame at the Holocaust Monument", "21202", "Downtown", "11", "CENTRAL", [ "{\"address\":\"50 MARKET PL\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 6, "332342F6-7480-46E7-8DEC-96C16B745836", 6, 1323858458, "393202", 1323858458, "393202", "{\n}", "Calvert Statue", "21202", "Downtown", "11", "CENTRAL", [ "{\"address\":\"100 CALVERT ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 7, "95B474EC-D91C-4B97-9C9E-68EE05BCDC6E", 7, 1323858458, "393202", 1323858458, "393202", "{\n}", "War Memorial Building/Aquatic Wa Horses", "21202", "Downtown", "11", "CENTRAL", [ "{\"address\":\"101 GAY ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 8, "D37E8B47-7378-432D-9A59-FD0B2C02B0E0", 8, 1323858458, "393202", 1323858458, "393202", "{\n}", "Boy Scout", "21211", "Remington", "7", "NORTHERN", [ "{\"address\":\"3100 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 9, "3E414A19-227C-4183-A6BF-95D7D68DF2F6", 9, 1323858458, "393202", 1323858458, "393202", "{\n}", "Reese Monument", "21213", "Clifton Park", "14", "NORTHEASTERN", [ "{\"address\":\"2801 SAINT LO DR\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 10, "9BD7A506-A9E2-4146-8E6F-36A48405FF3E", 10, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Serviceman's Memorial", "21211", "Johns Hopkins Homewood", "14", "NORTHEASTERN", [ null, null, null, null, null ] ]
+, [ 11, "E206BEAA-F84C-404F-BCFD-42F7B17787BF", 11, 1323858458, "393202", 1323858458, "393202", "{\n}", "Poe Monument", "21201", "Mid-Town Belvedere", "11", "CENTRAL", [ "{\"address\":\"1420 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 12, "0545E581-8370-47FF-9782-470990504FB2", 12, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Maryland Line Monument", "21201", "Mid-Town Belvedere", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 13, "0EE50F88-F905-4B44-94CF-BB0BE9161E67", 13, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Francis Scott Key Monument", "21217", "Madison Park", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 14, "E097F149-BCF8-4DE9-827C-64C96D05C2BF", 14, 1323858458, "393202", 1323858458, "393202", "{\n}", "Billie Holiday", "21217", "Upton", "11", "CENTRAL", [ "{\"address\":\"1400 PENNSYLVANIA AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 15, "E2832C11-8F67-4AD3-AAB8-ED1B450FD6AC", 15, 1323858458, "393202", 1323858458, "393202", "{\n}", "World War One Relief", "21217", "Upton", "11", "CENTRAL", [ "{\"address\":\"1211 PENNSYLVANIA AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 16, "8715A61F-FB04-4C0C-AA8C-C00AAC57C6A7", 16, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Watson Monument", "21217", "Reservoir Hill", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 17, "C8AE8876-C0AD-4B63-90AD-0B20BF5E5668", 17, 1323858458, "393202", 1323858458, "393202", "{\n}", "James L. Ridgely Monument", "21217", "Harlem Park", "11", "WESTERN", [ "{\"address\":\"1500 EDMONDSON AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 18, "60B8865B-770D-4BEE-96D6-069EDA221FF1", 18, 1323858458, "393202", 1323858458, "393202", "{\n}", "Luther Monument", "21218", "Coldstream Homestead Montebello", "14", "NORTHEASTERN", [ "{\"address\":\"3201 HILLEN ROAD\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 19, "555ECB99-EB0D-4F9E-B4A7-EE90079C7325", 19, 1323858458, "393202", 1323858458, "393202", "{\n}", "Dehontshihgwa'es (Creator's Game)", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 20, "734629CC-CE23-4E41-BC0D-07C335633CB1", 20, 1323858458, "393202", 1323858458, "393202", "{\n}", "Sidney Lanier Monument", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 21, "4E73A726-F3C3-4A52-81E3-207C40B906AB", 21, 1323858458, "393202", 1323858458, "393202", "{\n}", "Lee and Jackson Monument", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3100 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 22, "24B4EBA8-6A8E-4963-8E08-3E19B34FF331", 22, 1323858458, "393202", 1323858458, "393202", "{\n}", "Sea Urchin", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 23, "2A8A190D-DD17-431C-B731-37D20834AC04", 23, 1323858458, "393202", 1323858458, "393202", "{\n}", "Daniel Coit Gilman", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 24, "A532E515-7D35-43C3-BAA8-3E7C8C95964E", 24, 1323858458, "393202", 1323858458, "393202", "{\n}", "Centennial Sculpture", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 25, "80114000-E23B-4F98-963A-8DF4AB3067B7", 25, 1323858458, "393202", 1323858458, "393202", "{\n}", "Johns Hopkins Monument", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 26, "E89F26D5-8906-4F90-B444-71D7F29E918B", 26, 1323858458, "393202", 1323858458, "393202", "{\n}", "Harris Bust", "21211", "Remington", "14", "NORTHERN", [ "{\"address\":\"3100 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 27, "E62DF5EB-48D3-43BD-A6FC-CBFFE0F1A5F9", 27, 1323858458, "393202", 1323858458, "393202", "{\n}", "Isaiah Bowman", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 28, "DEF5FD69-EF45-4F4A-AB44-C9FBC42E302D", 28, 1323858458, "393202", 1323858458, "393202", "{\n}", "Union Soldiers and Sailors", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3100 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 29, "A288CFFF-8464-4909-A9C8-1E9679AA0C91", 29, 1323858458, "393202", 1323858458, "393202", "{\n}", "Peace Cross (Victory Cross)", "21218", "Guilford", "14", "NORTHERN", [ "{\"address\":\"2 UNIVERSITY PKWY\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 30, "5673914A-0493-4E7D-9577-8F0F97D1D5DE", 30, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "U.S. Spanish-American War Memorial", "21224", "McElderry Park", "13", "SOUTHEASTERN", [ null, null, null, null, null ] ]
+, [ 31, "AE3C5606-B106-4119-B52E-DED0E8151840", 31, 1323858458, "393202", 1323858458, "393202", "{\n}", "Pulaski Monument", "21224", "Patterson Park", "1", "SOUTHEASTERN", [ "{\"address\":\"100 LINWOOD AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 32, "3A43D635-5DC5-4A1D-81AF-59339AA29A48", 32, 1323858458, "393202", 1323858458, "393202", "{\n}", "Conradin Kruetzer Monument", "21224", "Patterson Park", "1", "SOUTHEASTERN", [ "{\"address\":\"100 LINWOOD AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 33, "78726298-D4BF-46C7-89C6-C5B4FAF935C2", 33, 1323858458, "393202", 1323858458, "393202", "{\n}", "Star Spangled Banner Centennial Monument", "21224", "Patterson Park", "1", "SOUTHEASTERN", [ "{\"address\":\"100 LINWOOD AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 34, "D6043C99-1320-4357-A47D-D583D9DB7FAB", 34, 1323858458, "393202", 1323858458, "393202", "{\n}", "Captain John O'Donnell", "21224", "Canton", "1", "SOUTHEASTERN", [ "{\"address\":\"1021 LINWOOD AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 35, "05477853-9481-4883-87BF-102554AB4509", 35, 1323858458, "393202", 1323858458, "393202", "{\n}", "Vietnam Veteran's Memorial Monument", "21230", "Middle Branch/Reedbird Parks", "10", "SOUTHERN", [ "{\"address\":\"2825 HANOVER ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 36, "40959FB0-AA99-4D81-9D63-51B208B495F7", 36, 1323858458, "393202", 1323858458, "393202", "{\n}", "Colonel George Armistead Monument", "21230", "Locust Point Industrial Area", "10", "SOUTHERN", [ "{\"address\":\"1401 CONSTELLATION PLZA\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 37, "B79C2EA1-77F6-42F3-9D1D-B6A0CFC772C6", 37, 1323858458, "393202", 1323858458, "393202", "{\n}", "Samuel Smith Monument", "21202", "Federal Hill", "11", "SOUTHERN", [ "{\"address\":\"300 WARREN AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 38, "3AA3F703-6112-4DB0-9F87-03FA4FF6AD85", 38, 1323858458, "393202", 1323858458, "393202", "{\n}", "Francis Scott Key Memorial", "21230", "Locust Point Industrial Area", "10", "SOUTHERN", [ "{\"address\":\"1401 CONSTELLATION PLZA\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 39, "7357125F-145D-4209-B2BC-34A709F186D9", 39, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Thomas Wildey Monument", "21231", "Washington Hill", "1", "SOUTHEASTERN", [ null, null, null, null, null ] ]
+, [ 40, "F08E38EA-B2C3-4140-9667-4402EAE8EE7A", 40, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Latrobe Monument", "21231", "Washington Hill", "1", "SOUTHEASTERN", [ null, null, null, null, null ] ]
+, [ 41, "27AC6822-9909-4361-ABCF-445A72725992", 41, 1323858458, "393202", 1323858458, "393202", "{\n}", "Christopher Columbus", "21202", "Inner Harbor", "1", "SOUTHEASTERN", [ "{\"address\":\"300 PRESIDENT ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 42, "A9E2DBA5-0359-4EFB-A5A6-CC6A9BE04682", 42, 1323858458, "393202", 1323858458, "393202", "{\n}", "Korean War Memorial", "21224", "Canton", "1", "SOUTHEASTERN", [ "{\"address\":\"2999 BOSTON ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 43, "FB6A9377-CD9D-4682-B1CA-5D4CFC0F5DA1", 43, 1323858458, "393202", 1323858458, "393202", "{\n}", "War Memorial Plaza", "21202", "Downtown", "11", "CENTRAL", [ "{\"address\":\"101 HOLLIDAY ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 44, "B80C0938-3B39-472C-B6E2-6EA598725A3C", 44, 1323858458, "393202", 1323858458, "393202", "{\n}", "Columbus Obelisk", "21214", "Herring Run Park", "3", "NORTHEASTERN", [ "{\"address\":\"4001 HARFORD ROAD\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 45, "9F5AC1AE-DC4C-4FD4-AE81-2D28844DAC6B", 45, 1323858458, "393202", 1323858458, "393202", "{\n}", "Mothers Garden", "21213", "Clifton Park", "14", "NORTHEASTERN", [ "{\"address\":\"2801 HARFORD ROAD\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 46, "8FC4999B-926B-4877-8E47-F2FB3F55D96C", 46, 1323858458, "393202", 1323858458, "393202", "{\n}", "Memorial Stadium", "21218", "Ednor Gardens-Lakeside", "14", "NORTHEASTERN", [ "{\"address\":\"1000 33RD ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 47, "68FF9D87-7DD7-46A1-BEDB-477B615B468D", 47, 1323858458, "393202", 1323858458, "393202", "{\n}", "Serviceman's Memorial", "21211", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3100 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 48, "1B6DBEDA-83B5-411A-BAAA-7B351DC5D542", 48, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Serviceman's Memorial", "21211", "Johns Hopkins Homewood", "14", "NORTHERN", [ null, null, null, null, null ] ]
+, [ 49, "AF0D879D-E0DE-4D55-B776-12E54725A2CF", 49, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Serviceman's Memorial", "21211", "Johns Hopkins Homewood", "14", "NORTHERN", [ null, null, null, null, null ] ]
+, [ 50, "0EC8194B-23CB-4D7D-9CFB-0BBC8DC45540", 50, 1323858458, "393202", 1323858458, "393202", "{\n}", "Serviceman's Memorial", "21211", "Johns Hopkins Homewood", "14", "NORTHEASTERN", [ "{\"address\":\"2801 HARFORD ROAD\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 51, "0ECE1BD8-C2D7-442C-A092-08432850CE16", 51, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Serviceman's Memorial", "21211", "Johns Hopkins Homewood", "14", "SOUTHERN", [ null, null, null, null, null ] ]
+, [ 52, "4A2B6FD0-82B4-40FC-A3A9-A2018D5045C0", 52, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Saint-Lo Drive Memorial", "21213", "Clifton Park", "14", "NORTHEASTERN", [ null, null, null, null, null ] ]
+, [ 53, "2748A8D4-6F18-415C-B309-8A2A7EF30D1C", 53, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Fell Family Memorial", "21231", "Fells Point", "1", "SOUTHEASTERN", [ null, null, null, null, null ] ]
+, [ 54, "9AEEB65A-B198-4F48-AA86-A19A2454ABCE", 54, 1323858458, "393202", 1323858458, "393202", "{\n}", "Rogers Bastion", "21224", "Patterson Park", "1", "SOUTHEASTERN", [ "{\"address\":\"100 LINWOOD AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 55, "1F72BDB2-0969-4F6D-845A-D0A350D6F342", 55, 1323858458, "393202", 1323858458, "393202", "{\n}", "Veterans of Foreign Wars Monument", "21224", "Hopkins Bayview", "2", "SOUTHEASTERN", [ "{\"address\":\"5100 EASTERN AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 56, "15BE1127-2D42-48F7-B50B-B95D28507D6B", 56, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Flagstaff", "21223", "New Southwest/Mount Clare", "9", "SOUTHERN", [ null, null, null, null, null ] ]
+, [ 57, "36FFF2D1-0110-4D9A-A21A-F9798B5AE9CB", 57, 1323858458, "393202", 1323858458, "393202", "{\n}", "Garrett Park Monument", "21225", "Brooklyn", "10", "SOUTHERN", [ "{\"address\":\"3560 3RD ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 58, "1D7855F9-D482-465B-B971-E260A1CDE6C7", 58, 1323858458, "393202", 1323858458, "393202", "{\n}", "Babe Ruth", "21201", "Stadium Area", "11", "SOUTHERN", [ "{\"address\":\"555 RUSSELL ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 59, "BE7A92E8-A2BB-40D1-AEC0-DF8F24B07FF6", 59, 1323858458, "393202", 1323858458, "393202", "{\n}", "Indian on the Trail", "21213", "Clifton Park", "14", "NORTHEASTERN", [ "{\"address\":\"2801 HARFORD ROAD\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 60, "4437FC9A-8FD5-4BE0-BAA6-85042D07F609", 60, 1323858458, "393202", 1323858458, "393202", "{\n}", "Katyn Memorial", "21202", "Inner Harbor", "1", "SOUTHEASTERN", [ "{\"address\":\"790 ALICEANNA ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 61, "242F180C-98EE-4A68-B151-FA3EC9950F96", 61, 1323858458, "393202", 1323858458, "393202", "{\n}", "The Washington Monument", "21201", "Mount Vernon", "11", "CENTRAL", [ "{\"address\":\"699 WASHINGTON PL\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 62, "74422665-9174-42F1-9D79-16B3ACB06FE3", 62, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Sea Urchin", "21218", "Johns Hopkins Homewood", "14", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 63, "AA1BD420-7136-4911-8D09-000A6DC58B6B", 63, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Lafayette Monument", "21201", "Mount Vernon", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 64, "B762212E-0827-4D71-92D1-B3D3BBD1DDED", 64, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "John Eager Howard Monument", "21201", "Mount Vernon", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 65, "18AA8561-F061-4A47-B6C6-1FC71337AFC7", 65, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Severn Teackle Wallis", "21202", "Mount Vernon", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 66, "9A65A309-3D46-42B0-A76C-4B83DCCE4F93", 66, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Roger B. Taney", "21201", "Mount Vernon", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 67, "C509A692-631F-4E54-A348-869593E92399", 67, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "George Peabody", "21202", "Mount Vernon", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 68, "934AF2A1-88BD-4326-964C-C513329B4A94", 68, 1323858458, "393202", 1323858458, "393202", "{\n}", "William H. Welch", "21218", "Johns Hopkins Homewood", "14", "NORTHERN", [ "{\"address\":\"3200 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 69, "FB53103B-843F-4096-9A76-89B412B386D2", 69, 1323858458, "393202", 1323858458, "393202", "{\n}", "Wallace Monument", "21217", "Druid Hill Park", "7", "NORTHERN", [ "{\"address\":\"2700 MADISON AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 70, "5D0168FD-6157-4F8E-9A4E-F06ED002B136", 70, 1323858458, "393202", 1323858458, "393202", "{\n}", "George Washington", "21217", "Druid Hill Park", "7", "NORTHERN", [ "{\"address\":\"2700 MADISON AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 71, "9160CEF2-FDEC-414D-B11F-D5B09DD5D9E8", 71, 1323858458, "393202", 1323858458, "393202", "{\n}", "Columbus Monument", "21217", "Druid Hill Park", "7", "NORTHERN", [ "{\"address\":\"2700 MADISON AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 72, "A8612F69-F144-4F2E-8A9F-DEF4E041D75D", 72, 1323858458, "393202", 1323858458, "393202", "{\n}", "The Pride Memorial", "21202", "Inner Harbor", "11", "CENTRAL", [ "{\"address\":\"399 PRATT ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 73, "F699E5BC-5CA7-4745-9324-C5877C78685C", 73, 1323858458, "393202", 1323858458, "393202", "{\n}", "Frederick Douglas", "21251", "Morgan State University", "3", "NORTHEASTERN", [ "{\"address\":\"4601 HILLEN ROAD\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 74, "21955D79-767F-4A4D-956F-B89A04B6C737", 74, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Jose Marti", "21231", "Dunbar-Broadway", "12", "SOUTHEASTERN", [ null, null, null, null, null ] ]
+, [ 75, "677C8780-2C4F-4FEA-AAEE-19BAA5EFE3E8", 75, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "John Mifflen Hood", "21202", "Downtown", "11", "CENTRAL", [ null, null, null, null, null ] ]
+, [ 76, "23C1043C-69D1-4099-B82E-7668C15DAA05", 76, 1323858458, "393202", 1323858458, "393202", "{\n}", "Firemen's Memorial", "21202", "Downtown", "11", "CENTRAL", [ "{\"address\":\"410 LEXINGTON ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 77, "8B51DDE9-43EA-4839-A1E1-F7D2B36966DE", 77, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Fallsway Fountain", "21202", "Mid-Town Belvedere", "12", "EASTERN", [ null, null, null, null, null ] ]
+, [ 78, "145DB19C-49A5-4E33-9CED-5371AAA44F3C", 78, 1323858458, "393202", 1323858458, "393202", "{\n}", "Thurgood Marshall", "21201", "Inner Harbor", "11", "CENTRAL", [ "{\"address\":\"100 PRATT ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 79, "FD0E5F53-2ADE-420B-AF1B-052ACB896D7A", 79, 1323858458, "393202", 1323858458, "393202", "{\n}", "Mayor Thomas D'Alesandro , Jr.", "21201", "Downtown", "11", "CENTRAL", [ "{\"address\":\"100 CHARLES ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 80, "C3E34184-3335-43C9-8512-5DF8F49C9811", 80, 1323858458, "393202", 1323858458, "393202", "{\n}", "Wagner", "21217", "Druid Hill Park", "7", "NORTHERN", [ "{\"address\":\"2700 MADISON AVE\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 81, "322CEADA-53FB-40B5-85A5-E61C9474260E", 81, 1323858458, "393202", 1323858458, "393202", "{\n}", "John Eager Howard", "21201", "Mount Vernon", "11", "CENTRAL", [ "{\"address\":\"310 CENTRE ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 82, "0D540665-C6C0-4BBD-8CD2-9664BD734ACE", 82, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Granite Memorial Shaft", "21223", "Carrollton Ridge", "9", "SOUTHERN", [ null, null, null, null, null ] ]
+, [ 83, "D9BD79CA-1245-4E88-A6EB-E765F37D4589", 83, 1323858458, "393202", 1323858458, "393202", "{\n  \"invalidCells\" : {\n    \"1786643\" : \", Baltimore, MD\"\n  }\n}", "Veterans Memorial", "21223", "Carrollton Ridge", "9", "SOUTHERN", [ null, null, null, null, null ] ]
+, [ 84, "10B48E42-76FA-4F38-9754-A698ED827A67", 84, 1323858458, "393202", 1323858458, "393202", "{\n}", "H.L. Mencken Fountain", "21223", "Union Square", "9", "SOUTHERN", [ "{\"address\":\"31 GILMOR ST\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"\"}", null, null, null, true ] ]
+ ]
+}
